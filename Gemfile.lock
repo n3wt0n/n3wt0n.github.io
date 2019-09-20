@@ -16,6 +16,13 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
+    devlopr (0.4.1)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.11.0)
+      jekyll-gist (~> 1.5.0)
+      jekyll-paginate (~> 1.1.0)
+      jekyll-seo-tag (~> 2.5.0)
+      jekyll-sitemap (~> 1.2.0)
     dnsruby (1.61.3)
       addressable (~> 2.5)
     em-websocket (0.5.1)
@@ -246,6 +253,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  devlopr (~> 0.4.1)
   github-pages
   tzinfo (~> 1.2)
   tzinfo-data
