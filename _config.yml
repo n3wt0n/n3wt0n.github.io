@@ -1,12 +1,12 @@
-#remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
-theme: devlopr
+remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
+#theme: devlopr
 # Edit your preferences below 
 title: Davide Benvegnu
 subtitle: Full Stack Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
   John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
 
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "http://n3wt0n.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
