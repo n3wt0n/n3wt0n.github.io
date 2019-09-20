@@ -1,61 +1,126 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
 
+# Edit your preferences below 
 title: Davide Benvegnu
-subtitle: This is my subtitle
-email: davide.benvegnu@outlook.com
+subtitle: Full Stack Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+urls:
+    - text: Blog
+      url: /blog
+    - text: About Me
+      url: /about
+    - text: Contact Me
+      url : /contact
+    - text: Sample Page
+      url: /sample-page
+
+# Edit these details 
+
 author_logo: profile.jpg
-author_email: davide.benvegnu@outlook.com
+author: Davide Benvegnu
+author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
+author_email: "davide.benvegnu@outlook.com"
 author_location: Hong Kong
+author_website_url: "http://wwwdavidebenvegnu.com"
+
+author_work_experiences: 
+            - company_name: Google
+              company_logo: google.png
+              company_url: https://google.com
+              designation: Software Engineer
+              description: Worked on various Google Products
+              visibility: true
+            - company_name: Microsoft
+              company_logo: microsoft.png
+              company_url: https://microsoft.com
+              designation: Azure Developer
+              description: Worked on various Azure Cloud Products
+              visibility: true
+
+author_education_details:
+              - college_logo: mit.png
+                college_name: MIT
+                college_url: https://mit.org
+                college_degree: CS Engineer
+                description: Bachelor of Technology
+                visibility: true
+
+author_project_details:
+              - project_thumbnail: gamershub.png
+                project_title: Gamers Hub
+                project_description: A Platform built for Gamers and Game Devs
+                project_url: https://gamershub.in
+                visibility: true
+              - project_thumbnail: programmingebooks.png
+                project_title: Programming Ebooks
+                project_description: A Platform to easily find and read programming books
+                project_url: https://programmingebooks.com
+                visibility: true
+
+# social links
 twitter_username: davidebenvegnu
-github_username: n3wt0n
+github_username:  n3wt0n
 facebook_username: davide.benvegnu
 linkedin_username: davidebenvegnu
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
-# Build settings
-theme: devlopr
+#for comments using disqus
+disqus_shortname: sujay-kundu  
+
+# wakatime username
+# wakatime_username: sujaykundu777
+
+# syntax highlighter
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# google analytics
+google_analytics: XXXX 
+
+# Choose what to show ( can be true or false)
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+
+# dont touch this unless required
 plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-remote-theme
+  # - jekyll-archives
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# pagination of posts
+paginate: 8
+per_page: 4
+paginate_path: "/blog/page/:num/"
+
+# minify 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+
