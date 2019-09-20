@@ -1,5 +1,5 @@
-remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
-
+#remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
+theme: devlopr
 # Edit your preferences below 
 title: Davide Benvegnu
 subtitle: Full Stack Web Developer
