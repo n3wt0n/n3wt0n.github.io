@@ -1,32 +1,32 @@
-remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
-#theme: devlopr
-# Edit your preferences below 
-title: Davide Benvegnu
-subtitle: Full Stack Web Developer
+title: John Doe
+subtitle: Web Developer and Designer
 description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+  devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "https://n3wt0n.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Blog
       url: /blog
+    - text: Shop
+      url : /shop/
     - text: About Me
-      url: /about
+      url: /about/
     - text: Contact Me
-      url : /contact
-    - text: Sample Page
-      url: /sample-page
+      url : /contact/
+    - text: Styleguide
+      url: /styleguide/
+    
 
 # Edit these details 
 
-author_logo: profile.jpg
-author: Davide Benvegnu
+author_logo: profile.png
+author: John Doe
 author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "davide.benvegnu@outlook.com"
-author_location: Hong Kong
-author_website_url: "http://wwwdavidebenvegnu.com"
+author_email: "johndoe@gmail.com"
+author_location: India
+author_website_url: "http://johndoe.com"
 
 author_work_experiences: 
             - company_name: Google
@@ -63,22 +63,25 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: davidebenvegnu
-github_username:  n3wt0n
-facebook_username: davide.benvegnu
-linkedin_username: davidebenvegnu
-# behance_username: johndoe
-# instagram_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
+twitter_username: johndoe
+github_username:  johndoe
+facebook_username: johndoe
+linkedin_username: johndoe
+behance_username: johndoe
+instagram_username: johndoe
+medium_username: johndoe
+telegram_username: johndoe
+dribbble_username: johndoe
+flickr_username: johndoe
 
 #for comments using disqus
 disqus_shortname: sujay-kundu  
 
-# wakatime username
-# wakatime_username: sujaykundu777
+# wakatime username (coding activity)
+wakatime_username: sujaykundu777
+
+# formspree (contact form)
+formspree_email: johndoe@gmail.com
 
 # syntax highlighter
 markdown: kramdown
@@ -86,7 +89,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: XXXX 
+google_analytics: UA-46783401-10 
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -100,8 +103,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-remote-theme
-  # - jekyll-archives
+  - jekyll-algolia
+# - jekyll-archives
+
+# algolia search 
+algolia:
+  application_id: D9WA1YKTRQ
+  index_name: blog_posts # You can replace that with whatever name you want
+  files_to_exclude: []
+  nodes_to_index: 'article'
+  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
 paginate: 8
@@ -124,3 +135,26 @@ compress_html:
 #   permalinks:
 #     category: '/category/:name/'
 
+
+collections:
+ - products
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
