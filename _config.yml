@@ -9,12 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
+    - text: About Me
+      url: /about
     - text: Blog
       url: /blog
 #    - text: Shop
 #      url : /shop/
-    - text: About Me
-      url: /about
     - text: Contact Me
       url : /contact
     
@@ -55,7 +55,7 @@ author_education_details:
                 college_url: https://mit.org
                 college_degree: CS Engineer
                 description: Bachelor of Technology
-                visibility: true
+                visibility: false
 
 author_project_details:
               - project_thumbnail: gamershub.png
