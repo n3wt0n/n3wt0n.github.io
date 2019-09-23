@@ -3,7 +3,7 @@ subtitle: DevOps Architect, International Speaker, MMA fighter
 description: >- # this means to ignore newlines until "baseurl:"
   Davide Benvegnu's website
 
-url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://n3wt0n.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
