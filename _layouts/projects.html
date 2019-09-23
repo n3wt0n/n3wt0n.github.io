@@ -19,7 +19,10 @@ layout: default
                             <h4 class="experience-title"> {{ project.project_title }}</h4>
                             <h6 class="experience-info"> {{ project.project_info}}</h6>
                             <p class="experience-desc"> {{ project.project_description }} </p>
-                            <p><a href="{{project.project_url}}">{{ project.project_url}}</a></p> 
+                            <p><a href="{{project.project_url}}" target="_blank">{{ project.project_url}}</a></p> 
+                            {% unless project.project_nuget.to_s.strip.empty? %}
+                            <p><a href="{{project.project_nuget}}" target="_blank">NuGet</a></p> 
+                            {% end %}
                         </div>
                     </div>
                     {% endif %}
