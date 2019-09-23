@@ -3,8 +3,8 @@ body{
 }
 
 .company-logo {
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
+    max-width: 100px !important;
+    max-height: 100px !important;
+    width: auto !important;
+    height: auto !important;
 }
