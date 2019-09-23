@@ -100,7 +100,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # dont touch this unless required
