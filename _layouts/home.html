@@ -30,6 +30,8 @@ layout: default
                         </div>
                     </div>
                     {% endif %}
+                    <br/>
+                    <a href="/about">See other Projects...</a>
             </div>
             {% endif %}
 
@@ -47,11 +49,12 @@ layout: default
                             <h4 class="experience-title"> {{ site.author_work_experiences[0].designation }}</h4>
                             <h6 class="experience-info"> {{ site.author_work_experiences[0].company_name}}</h6>
                             <p class="experience-desc"> {{ site.author_work_experiences[0].description }} </p>
-                            <p><a href="{{ site.author_work_experiences[0].company_url}}">{{ site.author_work_experiences[0].company_url}}</a></p> 
+                            <p><a href="{{site.author_work_experiences[0].company_url}}">{{ site.author_work_experiences[0].company_url}}</a></p> 
                         </div>
                     </div>
                     {% endif %}
-
+                    <br/>
+                    <a href="/about">See other Jobs...</a>
             </div>
             {% endif %}
 
