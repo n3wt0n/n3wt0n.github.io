@@ -79,14 +79,21 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: Azure WebApp SSL Manager
+                project_description: An Azure Function that acquires and manages free SSL certificates for Azure Web App hosted applications.
+                project_url: https://github.com/n3wt0n/AzureWebAppSSLManager
                 visibility: true
               - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
+                project_title: BugGuardian
+                project_description: An Open Source library that allows to easily create a Bug work item on your Azure Devops account or on your on-premises Team Foundation Server 2015+ and Azure DevOps Server in case your application throws an Unhandled Exception.
+                project_url: https://github.com/n3wt0n/BugGuardian
+                project_nuget: https://www.nuget.org/packages/DBTek.BugGuardian
+                visibility: true
+              - project_thumbnail: programmingebooks.png
+                project_title: Crypto
+                project_description: An Open Source piece of software, Crypto is a library to Encrypt/Decript and Hash files and strings
+                project_url: https://github.com/n3wt0n/Crypto
+                project_nuget: https://www.nuget.org/packages/DBTek.Crypto
                 visibility: true
 
 # social links
