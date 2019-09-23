@@ -68,6 +68,12 @@ author_work_experiences:
               designation: Director & CTO
               #description: Worked on various Azure Cloud projects in the Telco, FSI, Retail, Logistics and Infrastructure business 
               visibility: true
+            - company_name: Aruba
+              company_logo: aruba.svg
+              company_url: https://www.aruba.it
+              designation: International Development Manager
+              description: Managed 3 offshore teams, for a total of 30 people, working on the internal Public Cloud platform, Certified Email platform and an end-to-end ALM and DevOps system
+              visibility: true
 
 author_education_details:
               - college_logo: mit.png
