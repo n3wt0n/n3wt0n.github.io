@@ -24,12 +24,23 @@ urls:
 author_logo: profile.jpg
 author: Davide Benvegnu
 welcome_message:  >-
-  Welcome. 
-  <br/>
   This website is always work-in-progress, so it won't be ever ready. :-) 
   <br/>
   It aims to be an open channel for information and connection with the outside world; inside it you will find all of my areas of interest, my hobbies, my passions and some curiosity about my life. 
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
+author_bio: >-
+  OK... <i>let me introduce my self. </i>
+  <br/><br/>
+  My name is Davide Benvegnù, I was born on July 15th, 1984 in Trieste, a city where I lived for many years. After a "Tuscan moment", having moved to the charming city of Subbiano, now I live and work in Hong Kong.
+  <br/><br/>
+  I deal mainly in computer science, at various levels. Currently I am DevOps Architect for Microsoft, and I used to be a Microsoft MVP in Visual Studio Application Lifecycle Management (ALM).
+  <br/><br/>
+  I'm a staff member of DotNetToscana, an official Microsoft technical community, where I organize events and have speeches at technical conferences about DevOps, the .Net world, Azure, containers and serverless.
+  <br/>
+  I'm also the founder of the HKMSC - Hong Kong Microsoft Community.
+  <br/><br/>
+  I have been practicing Mixed Martial Arts (MMA) for some time before moving to Hong Kong, with the Spartan Club Arezzo. Now I train at Impakt, with some of the best fighters in Hong Kong.
+  <br/><br/>
+  I also like the modern and contemporary art, especially abstract paintings.  
 author_email: "davide.benvegnu@outlook.com"
 author_location: Hong Kong
 author_website_url: "http://www.davidebenvegnu.com"
