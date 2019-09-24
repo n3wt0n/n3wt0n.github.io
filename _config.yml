@@ -103,17 +103,42 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
-              - talk_date: 22/10/2019
-                talk_event: Event Name
-                talk_session: Session Name
-                talk_event_url: http://aaa.bbb.ccc
+              - talk_date: 22/10/2017
+                talk_event: Hong Kong CodeConf
+                talk_session: Go Serverless - Design Patterns and Best Practices
+                talk_event_url: http://codeconf.hk/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/go-serverless-design-patterns-and-best-practices
+                visibility: true
+              - talk_date: 27/09/2017
+                talk_event: Hong Kong SharePoint User Group
+                talk_session: SharePoint Disaster Recovery in Microsoft Azure 
+                talk_event_url: https://www.facebook.com/events/1993010144279054/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/sharepoint-disaster-recovery-in-microsoft-azure
+                talk_photos_url: http://aaa.bbb.ccc
+                talk_video_url: http://aaa.bbb.ccc
+                visibility: true
+              - talk_date: 14-15/02/2017
+                talk_event: Microsoft Tech Summit Hong Kong
+                talk_session: Deploy Your Solution to IaaS and PaaS with VSTS and Azure 
+                talk_event_url: https://www.microsoft.com/hk/techsummit2017/agenda.aspx
+                talk_session_url: http://aaa.bbb.ccc
+                talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-techsummit-deploy-your-solution-to-iaas-and-paas-with-vsts-and-azure-dev311
+                talk_code_url: http://aaa.bbb.ccc
+                talk_github_url: http://aaa.bbb.ccc
+                talk_photos_url: http://aaa.bbb.ccc
+                talk_video_url: http://aaa.bbb.ccc
+                visibility: true
+              - talk_date: 22/10/2017
+                talk_event: Hong Kong CodeConf
+                talk_session: Go Serverless - Design Patterns and Best Practices
+                talk_event_url: http://codeconf.hk/
                 talk_session_url: https://github.com/n3wt0n/AzureWebAppSSLManager
                 talk_slides_url: http://aaa.bbb.ccc
                 talk_code_url: http://aaa.bbb.ccc
                 talk_github_url: http://aaa.bbb.ccc
                 talk_photos_url: http://aaa.bbb.ccc
                 talk_video_url: http://aaa.bbb.ccc
-                visibility: true
+                visibility: false
 
 # social links
 twitter_username: davidebenvegnu
