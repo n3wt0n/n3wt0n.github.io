@@ -114,25 +114,282 @@ author_talk_details:
                 talk_session: SharePoint Disaster Recovery in Microsoft Azure 
                 talk_event_url: https://www.facebook.com/events/1993010144279054/
                 talk_slides_url: https://www.slideshare.net/n3wt0n/sharepoint-disaster-recovery-in-microsoft-azure
-                talk_photos_url: http://aaa.bbb.ccc
-                talk_video_url: http://aaa.bbb.ccc
                 visibility: true
               - talk_date: 14-15/02/2017
                 talk_event: Microsoft Tech Summit Hong Kong
                 talk_session: Deploy Your Solution to IaaS and PaaS with VSTS and Azure 
                 talk_event_url: https://www.microsoft.com/hk/techsummit2017/agenda.aspx
-                talk_session_url: http://aaa.bbb.ccc
                 talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-techsummit-deploy-your-solution-to-iaas-and-paas-with-vsts-and-azure-dev311
-                talk_code_url: http://aaa.bbb.ccc
-                talk_github_url: http://aaa.bbb.ccc
-                talk_photos_url: http://aaa.bbb.ccc
-                talk_video_url: http://aaa.bbb.ccc
                 visibility: true
-              - talk_date: 22/10/2017
-                talk_event: Hong Kong CodeConf
-                talk_session: Go Serverless - Design Patterns and Best Practices
-                talk_event_url: http://codeconf.hk/
-                talk_session_url: https://github.com/n3wt0n/AzureWebAppSSLManager
+              - talk_date: 3/2/2017
+                talk_event: Visual Studio 2017, novità e dintorni da Connect()
+                talk_session: Le novità di Visual Studio Team Services... E non solo
+                talk_event_url: http://www.dotnettoscana.org/eventi/visual-studio-2017-novità-e-dintorni-da-connect/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/vs2017pi-le-novit-di-visual-studio-team-services
+                talk_video_url: https://youtu.be/f-e1s2mETkI
+                visibility: true
+              - talk_date: 12/1/2017
+                talk_event: Microsoft Tech Forum
+                talk_session: Accelerate Your Bot Development with DevOps
+                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x950970d86c&wt.mc_id=AID561806_QSG_29652
+                talk_slides_url: https://www.slideshare.net/n3wt0n/accelerate-your-bot-development-with-devops
+                talk_video_url: http://www.facebook.com/mshktech/videos/10154007509971901
+                visibility: true
+              - talk_date: 10/12/2016
+                talk_event: Barcamp Hong Kong 2016
+                talk_session: Microsoft <3 Open Source
+                talk_event_url: http://barcamp.hk/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-lt3-open-source
+                visibility: true
+              - talk_date: 10/12/2016
+                talk_event: Barcamp Hong Kong 2016
+                talk_session: DevOps at Scale - Culture or Tools?
+                talk_event_url: http://barcamp.hk/
+                visibility: true
+              - talk_date: 24/11/2016
+                talk_event: HKWD - DevOps in Practice Part 2
+                talk_session: Continuous Integration - a real win-win for developers
+                talk_event_url: http://www.meetup.com/HK-Web-Developers/events/234772069/
+                visibility: true
+              - talk_date: 27/08/2016
+                talk_event: SharePoint Saturday Hong Kong
+                talk_session: Azure AD - Enterprise-Grade Identity Provider For Your Applications
+                talk_event_url: https://www.eventbrite.com/e/sharepoint-saturday-hong-kong-registration-26535236607
+                talk_session_url: http://lanyrd.com/2016/spshk/sfdghp/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-ad-enterprisegrade-identity-provider-for-your-applications-65572699
+                visibility: true
+              - talk_date: 07/06/2016
+                talk_event: World Internet Developer Summit 2016
+                talk_session: Keynote 2 - DevOps at scale A true story
+                talk_event_url: http://www.isoc.hk/wids2016/#schedule
+                talk_slides_url: https://www.slideshare.net/n3wt0n/devops-at-scale-a-true-story-wids2016
+                visibility: true
+              - talk_date: 22/04/2016
+                talk_event: Le novità di Build 2016 per gli sviluppatori Windows... E non solo
+                talk_session: Le novità di Visual Studio Team Services
+                talk_event_url: http://www.dotnettoscana.org/eventi/le-novità-di-build-2016-per-gli-sviluppatori-windows-e-non-solo/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/le-novit-di-visual-studio-team-services
+                tals_video_url: https://www.youtube.com/watch?v=YJEMfyA4WQU
+                visibility: true
+              - talk_date: 15/04/2016
+                talk_event: HK IT Fest 2016 - Promising Technologies for Contemporary Development
+                talk_session: Dev/Test Scenarios in the DevOps World
+                talk_event_url: https://www.eventbrite.hk/e/promising-technologies-for-contemporary-development-registration-22637694955
+                talk_slides_url: https://www.slideshare.net/n3wt0n/devtest-scenarios-in-devops-world
+                visibility: true
+              - talk_date: 16/03/2016
+                talk_event: HKCS QMSIG Seminar 
+                talk_session: Your application ever up-to-date? Go continuous delivery
+                talk_event_url: https://www.eventbrite.hk/e/hkcs-qmsig-seminar-networking-event-your-application-ever-up-to-date-go-continuous-delivery-registration-22483467657
+                talk_slides_url: https://www.slideshare.net/n3wt0n/your-application-ever-uptodate-go-continuous-delivery
+                visibility: true
+              - talk_date: 10-11/03/2016
+                talk_event: Microsoft Cloud Roadshow
+                talk_session: Ask the Experts booth
+                talk_event_url: https://www.microsoftcloudroadshow.com/hongkong/
+                visibility: true
+              - talk_date: 20/01/2016
+                talk_event: Microsoft DevOps Breakfast
+                talk_session: Continuous Integration and Continuous Deployment in the Enterprise Scenario
+                talk_event_url: https://onedrive.live.com/redir?resid=6881D6253CAAF6C!466027&authkey=!AMCGPIFlWkZcZKg&ithint=file%2cmht
+                talk_slides_url: https://www.slideshare.net/n3wt0n/continuous-integration-and-continuous-deployment-in-enterprise-scenario
+                visibility: true
+              - talk_date: 15/12/2015
+                talk_event: HKCS Enterprise Architecture SIG Half Day Seminar
+                talk_session: Ask the Experts booth
+                talk_event_url: https://easig151215.eventbrite.hk/
+                visibility: true
+              - talk_date: 11/12/2015
+                talk_event: Azure day - Il cloud per IT Pro e Dev
+                talk_session: Keynote - Azure il cloud secondo Microsoft
+                talk_event_url: http://www.dotnettoscana.org/eventi/azure-day-il-cloud-per-it-pro-e-dev/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-il-cloud-secondo-microsoft
+                visibility: true
+              - talk_date: 20/11/2015
+                talk_event: CAL - CityU Apps Lab
+                talk_session: Hard and Soft skill - be succesful in the IT market
+                talk_event_url: http://appslab.hk/
+                talk_session_url: https://www.facebook.com/CityuAppsLab/posts/1234724736554617
+                talk_slides_url: https://www.slideshare.net/n3wt0n/hard-and-soft-skills-be-succesful-in-the-it-market
+                visibility: true
+              - talk_date: 17/10/2015
+                talk_event: Barcamp Hong Kong 2015
+                talk_session: Build your OSS GitHub projects for free with VSO
+                talk_event_url: http://barcamp.hk/
+                talk_slides_url: http://www.slideshare.net/n3wt0n/build-your-oss-github-projects-for-free-with-vso
+                visibility: true
+              - talk_date: 17/10/2015
+                talk_event: Barcamp Hong Kong 2015
+                talk_session: What about Microsoft going Open Source?
+                talk_event_url: http://barcamp.hk/
+                visibility: true
+              - talk_date: 14/10/2015
+                talk_event: WebCast
+                talk_session: Da GitHub a NuGet con la nuova Build di Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/eventi/webcast-da-github-a-nuget-con-la-nuova-build-di-visual-studio-online/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/da-github-a-nuget-con-la-nuova-build-di-visual-studio-online
+                talk_video_url: http://youtu.be/IEUx6q6XKVw
+                visibility: true
+              - talk_date: 21/09/2015
+                talk_event: Sviluppare a 360° con Visual Studio 2015
+                talk_session: Visual Studio 2015 e l'intrigante mondo esterno
+                talk_event_url: http://www.dotnettoscana.org/sviluppare-a-360-con-visual-studio-2015.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/visual-studio-2015-e-lintrigante-mondo-esterno
+                visibility: true
+              - talk_date: 21/09/2015
+                talk_event: Sviluppare a 360° con Visual Studio 2015
+                talk_session: NuGet 3.0 by examples
+                talk_event_url: http://www.dotnettoscana.org/sviluppare-a-360-con-visual-studio-2015.aspx
+                visibility: true
+              - talk_date: 17/09/2015
+                talk_event: WebCast
+                talk_session: Integrare Visual Studio Online - Rest API & Service Hooks
+                talk_event_url: http://www.dotnettoscana.org/integrare-visual-studio-online-rest-api-service-hooks.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/integrazione-con-visual-studio-online
+                visibility: true
+              - talk_date: 04/05/2015
+                talk_event: WebCast
+                talk_session: Cloud Load Testing con Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/cloud-load-testing-con-visual-studio-online.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/cloud-load-testing-con-visual-studio-online
+                talk_video_url: http://youtu.be/1JKY2JAi4co
+                visibility: true
+              - talk_date: 23/04/2015
+                talk_event: Azure Community Bootcamp 2015 Pisa
+                talk_session: Azure Web Apps - Portare il tuo sito nel cloud
+                talk_event_url: http://www.communitydays.it/events/azure-2015/#l-Pisa
+                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-wepapps-portare-il-tuo-sito-sul-cloud
+                visibility: true
+              - talk_date: 17/04/2015
+                talk_event: ALM for Dummies
+                talk_session: Test di carico con Visual Studio Online - facile!
+                talk_event_url: http://www.domusdotnet.org/eventi/alm-for-dummies.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/test-di-carico-con-visual-studio-online-facile
+                visibility: true
+              - talk_date: 13/04/2015
+                talk_event: WebCast
+                talk_session: Continuous Integration con Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/continuous-integration-con-visual-studio-online.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/3-ci
+                talk_video_url: http://youtu.be/GYweCkieztE
+                visibility: true
+              - talk_date: 13/04/2015
+                talk_event: PodCast
+                talk_session: DocumentDB visto da vicino
+                talk_event_url: http://www.dotnetpodcast.com/show/card/36
+                visibility: true
+              - talk_date: 26/03/2015
+                talk_event: Community Days 2015
+                talk_session: DocumentDB, il NoSQL secondo Azure
+                talk_event_url: http://www.communitydays.it/events/2015/
+                talk_session_url: http://www.communitydays.it/events/2015/az08/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/az08-document-db
+                visibility: true
+              - talk_date: 02/03/2015
+                talk_event: WebCast
+                talk_session: Gestione del codice sorgente con Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/gestione-del-codice-sorgente-con-visual-studio-online.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/gestione-del-codice-sorgente-con-visual-studio-online
+                talk_video_url: http://youtu.be/L31bigKW0nA
+                visibility: true
+              - talk_date: 28/02/2015
+                talk_event: Le novità di Visual Studio 2015
+                talk_session: Le novità di Visual Studio Online
+                talk_event_url: http://www.visual-basic.it/DettaglioNews/tabid/160/ArticleId/1772/Le-novita-di-Visual-Studio-2015.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/le-novit-di-visual-studio-online
+                visibility: true
+              - talk_date: 13/02/2015
+                talk_event: Microsoft Mobile Camp - Firenze
+                talk_session: Fondamenti di ALM per le App Mobile
+                talk_slides_url: https://www.slideshare.net/n3wt0n/fondamenti-di-alm-per-le-app-mobile
+                visibility: true
+              - talk_date: 12/02/2015
+                talk_event: Microsoft Virtual Academy
+                talk_session: Application Lifecycle Management (ALM) con Visual Studio Online 
+                visibility: true
+              - talk_date: 02/02/2015
+                talk_event: WebCast
+                talk_session: Introduzione a Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/introduzione-a-visual-studio-online.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/webcast-vso-1-introduzione-a-visual-studio-online
+                talk_video_url: http://youtu.be/CL0Krfkvzqc
+                visibility: true
+              - talk_date: 15/12/2014
+                talk_event: Real Solutions Day
+                talk_session: Progetto e gestione del lavoro - ALM in breve con Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/real-solutions-day.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/real-solutions-day-progetto-e-gestione-del-lavoro-alm-in-breve-con-visual-studio-online
+                visibility: true
+              - talk_date: 06/11/2014
+                talk_event: Festival ICT 2014
+                talk_session: Una WebFarm bilanciata e scalabile con Microsoft Azure
+                talk_event_url: http://www.festivalict.com/il-programma-2014/
+                talk_session_url: http://www.festivalict.com/i-relatori-2014/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/una-web-farm-bilanciata-e-scalabile-con-microsoft-azure
+                visibility: true
+              - talk_date: 22/10/2014
+                talk_event: SMAU Milano
+                talk_session: About Aruba Cloud and ALM
+                visibility: true
+              - talk_date: 16/10/2014
+                talk_event: NTTSight Academy
+                talk_session: Predictive Analytics con Microsoft Azure Machine Learning
+                talk_event_url: http://www.nttsight.com/nttsight-academy/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/nt-tsight-academy-ml
+                visibility: true
+              - talk_date: 09/10/2014
+                talk_event: ABC... Azure Best Contents
+                talk_session: Keynote
+                talk_event_url: http://www.dotnettoscana.org/abc-azure-best-contents.aspx
+                visibility: true
+              - talk_date: 09/10/2014
+                talk_event: ABC... Azure Best Contents
+                talk_session: Azure NoSQL approach - DocumentDB
+                talk_event_url: http://www.dotnettoscana.org/abc-azure-best-contents.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-nosql-approach-documentdb
+                visibility: true
+              - talk_date: 25/09/2014
+                talk_event: Community Days 2014 - Roma
+                talk_session: Da TFS a Visual Studio Online
+                talk_event_url: http://www.communitydays.it/events/2014-Roma/
+                talk_session_url: http://www.communitydays.it/events/2014-Roma/vs03/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/cdays14-vs03-da-tfs-a-visual-studio-online
+                visibility: true
+              - talk_date: 30/05/2014
+                talk_event: ALM Deep dive with TFS 2013
+                talk_session: Keynote
+                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
+                visibility: true
+              - talk_date: 30/05/2014
+                talk_event: ALM Deep dive with TFS 2013
+                talk_session: Release Management with TFS 2013
+                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/release-management-with-tfs-2013-35334617
+                visibility: true
+              - talk_date: 30/05/2014
+                talk_event: ALM Deep dive with TFS 2013
+                talk_session: Migrate from TFS to Visual Studio Online
+                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/migrate-from-tfs-2013-to-visual-studio-online
+                visibility: true
+              - talk_date: 30/05/2014
+                talk_event: ALM Deep dive with TFS 2013
+                talk_session: Install, configure and customize TFS2013
+                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
+                talk_slides_url: https://www.slideshare.net/n3wt0n/install-configure-and-customize-tfs2013
+                visibility: true
+              - talk_date: dd/mm/yyyy
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: http://aaa.bbb.ccc
+                talk_session_url: http://aaa.bbb.ccc
+                talk_slides_url: http://aaa.bbb.ccc
+                visibility: true
+              - talk_date: dd/mm/yyyy
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: http://aaa.bbb.ccc
+                talk_session_url: http://aaa.bbb.ccc
                 talk_slides_url: http://aaa.bbb.ccc
                 talk_code_url: http://aaa.bbb.ccc
                 talk_github_url: http://aaa.bbb.ccc
