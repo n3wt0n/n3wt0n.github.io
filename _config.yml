@@ -103,6 +103,140 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
+              - talk_date: 18/6/2019
+                talk_event: Azure Developer Camp
+                talk_session: Architect your app modernization journey with containers on Microsoft Azure
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: 18/6/2019
+                talk_event: Azure Developer Camp
+                talk_session: Azure Kubernetes Workshop
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: DATE
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: DATE
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: DATE
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: DATE
+                talk_event: EVENT
+                talk_session: SESSION
+                talk_event_url: SITE
+                talk_session_url: SITE
+                talk_slides_url: SITE
+                talk_code_url: SITE
+                talk_github_url: SITE
+                talk_photos_url: SITE
+                talk_video_url: SITE
+                visibility: true
+              - talk_date: 26/10/2018
+                talk_event: Microsoft TechSummit GCR
+                talk_session: Microservices with Azure Service Fabric
+                talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
+                talk_slides_url: SITE
+                talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
+                talk_video_url: https://www.microsoft.com/china/events/video_419
+                visibility: true
+              - talk_date: 26/10/2018
+                talk_event: Microsoft TechSummit GCR
+                talk_session: Go Serverless - Design Patterns, Best Practices, and Real World scenarios
+                talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
+                talk_slides_url: SITE
+                talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
+                talk_video_url: https://www.microsoft.com/china/events/video_418
+                visibility: true
+              - talk_date: 13/07/2018
+                talk_event: MVP meetup
+                talk_session: How I choose which services to use in Azure?
+                talk_event_url: https://www.facebook.com/events/659587234386024/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/how-i-choose-which-services-to-use-in-azure
+                talk_photos_url: https://www.facebook.com/pg/microsofthkrmvp/photos/?tab=album&album_id=1909465285772628&__xts__%5B0%5D=68.ARD1E83VGeHEM0o9v-nuBq152iYCCyqnFeC1yzVaMXIDPvHsVsrWUoxTlTBJAg4h3jPnqVd98z3R1UqT_TRj2-329TuZr10GhduPyxkAgk50Ztas-i72UpYk9cgf5zGDxGZ-bvdmjnaP7cIXDUlai9nsppe6xHnqJJhZw8oWT5S94kW7OGqAR7uNIfs8_5U-Zq8FaAiig_QKYhre3e4kfiwcSd8N7-LGuVgQUBDF20FkzIHffF8zfzTscPY7e26Pw40DMSH4g2PZoriWUUhXFWgrgj8li38BgCCna6YWz2jzoLTEKW8lUH-SPPJxVNgAJ4A6e_4un-ilHJoomaG5rFkFQ5uTf0vnGBZ67gMGsV0P_BLZBF7rfyBbkMjFtW3iqpOxmRxgW0nT2jzAGFD2p1drRDVMEu8s8_TUnPR3OE7G2-GZhS8fcwqOBmFdLd5eVeZtMR4YZqr1N9DdsGfqSkOMpQv2YRsOBpszKpapFPXtXJCCVytKx6PFDHNhoHekfnAylaANTVxiIFuwexXe5ILdEe1HCSk6yxHXT5qpz6RKdaQK&__tn__=-UC-R
+                visibility: true
+              - talk_date: 29/3/2018
+                talk_event: Microsoft TechSummit Hong Kong
+                talk_session: Develop a Serverless Integration Platform for the Enterprise
+                talk_event_url: https://www.microsoft.com/hk/techsummit2018
+                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
+                talk_slides_url: https://www.slideshare.net/n3wt0n/develop-a-serverless-integration-platform-for-the-enterprise
+                visibility: true
+              - talk_date: 29/3/2018
+                talk_event: Microsoft TechSummit Hong Kong
+                talk_session: Microservices with Azure Service Fabric 
+                talk_event_url: https://www.microsoft.com/hk/techsummit2018
+                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
+                talk_slides_url: https://www.slideshare.net/n3wt0n/microservices-with-azure-service-fabric-175684815
+                visibility: true
+              - talk_date: 29/3/2018
+                talk_event: Microsoft TechSummit Hong Kong
+                talk_session: Go Serverless - Best Practices, Design Patterns, and Real World Scenarios
+                talk_event_url: https://www.microsoft.com/hk/techsummit2018
+                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
+                talk_slides_url: https://www.slideshare.net/n3wt0n/go-serverless-best-practices-design-patterns-and-real-world-scenarios
+                visibility: true
+              - talk_date: 29/3/2018
+                talk_event: Microsoft TechSummit Hong Kong
+                talk_session: Secure your applications with Azure AD and Key Vault
+                talk_event_url: https://www.microsoft.com/hk/techsummit2018
+                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
+                talk_slides_url: https://www.slideshare.net/n3wt0n/secure-your-applications-with-azure-ad-and-key-vault
+                talk_code_url: https://1drv.ms/t/s!AGyvylNiHYgGo7Jo
+                visibility: true
+              - talk_date: 14/03/2018
+                talk_event: Microsoft Developers HK Meetup
+                talk_session: .Net Microservices with Azure Service Fabric
+                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/247502337/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/net-microservices-with-azure-service-fabric
+                talk_github_url: https://github.com/n3wt0n/ServiceFabricDemoHKDev
+                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/28680099/469248350/
+                visibility: true
+              - talk_date: 07/02/2018
+                talk_event: Microsoft DevOps workshop
+                talk_session: Driving Faster Development with Automation and Autonomy
+                visibility: true
+              - talk_date: 31/01/2018
+                talk_event: Microsoft Ready - Winter edition
+                talk_session: Go Serverless - Best Practices, Design Patterns, and Real World Scenarios
+                visibility: true
               - talk_date: 22/10/2017
                 talk_event: Hong Kong CodeConf
                 talk_session: Go Serverless - Design Patterns and Best Practices
@@ -120,6 +254,7 @@ author_talk_details:
                 talk_session: Deploy Your Solution to IaaS and PaaS with VSTS and Azure 
                 talk_event_url: https://www.microsoft.com/hk/techsummit2017/agenda.aspx
                 talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-techsummit-deploy-your-solution-to-iaas-and-paas-with-vsts-and-azure-dev311
+                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10209617406764694
                 visibility: true
               - talk_date: 3/2/2017
                 talk_event: Visual Studio 2017, novità e dintorni da Connect()
@@ -357,7 +492,7 @@ author_talk_details:
                 visibility: true
               - talk_date: 30/05/2014
                 talk_event: ALM Deep dive with TFS 2013
-                talk_session: Keynote
+                talk_session: Opening Keynote
                 talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
                 visibility: true
               - talk_date: 30/05/2014
@@ -378,12 +513,9 @@ author_talk_details:
                 talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
                 talk_slides_url: https://www.slideshare.net/n3wt0n/install-configure-and-customize-tfs2013
                 visibility: true
-              - talk_date: dd/mm/yyyy
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: http://aaa.bbb.ccc
-                talk_session_url: http://aaa.bbb.ccc
-                talk_slides_url: http://aaa.bbb.ccc
+              - talk_date: 16/12/2013
+                talk_event: To the Web and Beyond with Visual Studio 2013
+                talk_session: Opening Keynote
                 visibility: true
               - talk_date: dd/mm/yyyy
                 talk_event: EVENT
