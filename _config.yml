@@ -102,6 +102,19 @@ author_project_details:
                 project_nuget: https://www.nuget.org/packages/DBTek.Crypto
                 visibility: true
 
+author_talk_details:
+              - talk_date: 22/10/2019
+                talk_event: Event Name
+                talk_session: Session Name
+                talk_event_url: http://aaa.bbb.ccc
+                talk_session_url: https://github.com/n3wt0n/AzureWebAppSSLManager
+                talk_slides_url: http://aaa.bbb.ccc
+                talk_code_url: http://aaa.bbb.ccc
+                talk_github_url: http://aaa.bbb.ccc
+                talk_photos_url: http://aaa.bbb.ccc
+                talk_video_url: http://aaa.bbb.ccc
+                visibility: true
+
 # social links
 twitter_username: davidebenvegnu
 github_username:  n3wt0n
@@ -135,6 +148,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: false
 show_author_project_details: true
+show_author_talk_details: true
 
 # dont touch this unless required
 plugins:
