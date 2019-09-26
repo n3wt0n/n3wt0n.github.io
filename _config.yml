@@ -158,22 +158,20 @@ author_talk_details:
                 talk_photos_url: SITE
                 talk_video_url: SITE
                 visibility: true
-              - talk_date: DATE
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+              - talk_date: 28/11/2018
+                talk_event: Azure DevOps community launch
+                talk_session: Deploy to AKS and Azure Functions with Azure DevOps
+                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/255546742/
+                talk_slides_url: 
+                talk_github_url: https://github.com/n3wt0n/HelloNodeAKS
+                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/29479766/
+                talk_video_url: https://www.youtube.com/watch?v=e4NBPHwd3Ns
                 visibility: true
               - talk_date: 26/10/2018
                 talk_event: Microsoft TechSummit GCR
                 talk_session: Microservices with Azure Service Fabric
                 talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
-                talk_slides_url: SITE
+                talk_slides_url: 
                 talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
                 talk_video_url: https://www.microsoft.com/china/events/video_419
                 visibility: true
@@ -181,7 +179,7 @@ author_talk_details:
                 talk_event: Microsoft TechSummit GCR
                 talk_session: Go Serverless - Design Patterns, Best Practices, and Real World scenarios
                 talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
-                talk_slides_url: SITE
+                talk_slides_url: 
                 talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
                 talk_video_url: https://www.microsoft.com/china/events/video_418
                 visibility: true
