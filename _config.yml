@@ -147,16 +147,10 @@ author_talk_details:
                 talk_photos_url: SITE
                 talk_video_url: SITE
                 visibility: true
-              - talk_date: DATE
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+              - talk_date: 20-21/2/2019
+                talk_event: Microsoft Ignite the tour HK
+                talk_session: Demo Booth - Serverless
+                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215172400436064
                 visibility: true
               - talk_date: 28/11/2018
                 talk_event: Azure DevOps community launch
