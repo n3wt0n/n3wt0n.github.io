@@ -36,26 +36,7 @@ layout: default
         <div class="col-lg-4">
     
             <div class="card">
-                {% if site.author_location %} 
-                <h6>  <i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
-                {% endif %}
-                
-                {% if site.author_email %}
-                <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
-                {% endif %}
-                
-                {% if site.author_website_url %}
-                <h6> <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
-                {% endif %}
-                
-                {% if site.github_username %}
-                  {%- include github_follow_button.html -%} 
-                {% endif %}
-
-                {% if site.twitter_username %}
-                  {%- include twitter_follow_button.html -%} 
-                {% endif %}
-    
+                {%- include author_info.html -%}
             </div>
     
             <div class="card">
