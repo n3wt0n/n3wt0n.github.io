@@ -19,7 +19,7 @@ layout: default
                             <h4 class="experience-title"> {{ project.project_title }}</h4>
                             <h6 class="experience-info"> {{ project.project_info}}</h6>
                             <p class="experience-desc"> {{ project.project_description }} </p>
-                            <p><a class="github-button" href="{{project.project_url}}" data-size="large">GitHub</a> <a href="{{project.project_url}}" target="_blank">{{ project.project_url}}</a></p> 
+                            <p><a class="github-button" href="{{project.project_url}}" aria-label="{{ project.project_title }} on GitHub" data-size="large">View on GitHub</a></p> 
                             {% if project.project_nuget && project.project_nuget != "" && project.project_nuget != nil %}
                             <p><a href="{{project.project_nuget}}" target="_blank">NuGet Package</a></p> 
                             {% endif %}
