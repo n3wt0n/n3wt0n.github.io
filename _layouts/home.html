@@ -12,6 +12,50 @@ layout: default
             </div>
             {% endif %}
 
+            {% if site.show_author_talk_details == true %}
+            <div class="card">
+                <h1 class="card-title">Latest Talk</h1>
+                <br />
+                {% if site.author_talk_details[0].visibility == true %}
+                <div class="row">
+                    <div class="col-md-1">
+                        <p>{{ site.author_talk_details[0].talk_date}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>{{ site.author_talk_details[0].talk_event}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>{{ site.author_talk_details[0].talk_session}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        {% if site.author_talk_details[0].talk_event_url && site.author_talk_details[0].talk_event_url != "" && site.author_talk_details[0].talk_event_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_event_url}}" target="_blank"><img src="/assets/img/talks/website.png" alt="Event Website" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_session_url && site.author_talk_details[0].talk_session_url != "" && site.author_talk_details[0].talk_session_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_session_url}}" target="_blank"><img src="/assets/img/talks/session.png" alt="Session Details Page" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_slides_url && site.author_talk_details[0].talk_slides_url != "" && site.author_talk_details[0].talk_slides_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_slides_url}}" target="_blank"><img src="/assets/img/talks/powerpoint.png" alt="Slides" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_code_url && site.author_talk_details[0].talk_code_url != "" && site.author_talk_details[0].talk_code_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_code_url}}" target="_blank"><img src="/assets/img/talks/source-code.png" alt="Source Code" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_github_url && site.author_talk_details[0].talk_github_url != "" && site.author_talk_details[0].talk_github_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_github_url}}" target="_blank"><img src="/assets/img/talks/github.png" alt="GitHub" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_photos_url && site.author_talk_details[0].talk_photos_url != "" && site.author_talk_details[0].talk_photos_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_photos_url}}" target="_blank"><img src="/assets/img/talks/gallery.png" alt="Photos" class="talkicon"/></a>
+                        {% endif %}
+                        {% if site.author_talk_details[0].talk_video_url && site.author_talk_details[0].talk_video_url != "" && site.author_talk_details[0].talk_video_url != nil %}
+                        <a href="{{site.author_talk_details[0].talk_video_url}}" target="_blank"><img src="/assets/img/talks/video.png" alt="Video" class="talkicon"/></a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                <br/>
+                <a href="/talks">See other Talks...</a>
+            </div>
+            {% endif %}
 
             {% if site.show_author_project_details == true %}
             <div class="card">

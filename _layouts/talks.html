@@ -12,42 +12,42 @@ layout: default
                 {% for talk in site.author_talk_details %}
                 {% if talk.visibility == true %}
                 <div class="row">
-                        <div class="col-md-1">
-                            <p>{{ talk.talk_date}}</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p>{{ talk.talk_event}}</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p>{{ talk.talk_session}}</p>
-                        </div>
-                        <div class="col-md-3">
-                            {% if talk.talk_event_url && talk.talk_event_url != "" && talk.talk_event_url != nil %}
-                            <a href="{{talk.talk_event_url}}" target="_blank"><img src="/assets/img/talks/website.png" alt="Event Website" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_session_url && talk.talk_session_url != "" && talk.talk_session_url != nil %}
-                            <a href="{{talk.talk_session_url}}" target="_blank"><img src="/assets/img/talks/session.png" alt="Session Details Page" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_slides_url && talk.talk_slides_url != "" && talk.talk_slides_url != nil %}
-                            <a href="{{talk.talk_slides_url}}" target="_blank"><img src="/assets/img/talks/powerpoint.png" alt="Slides" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_code_url && talk.talk_code_url != "" && talk.talk_code_url != nil %}
-                            <a href="{{talk.talk_code_url}}" target="_blank"><img src="/assets/img/talks/source-code.png" alt="Source Code" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_github_url && talk.talk_github_url != "" && talk.talk_github_url != nil %}
-                            <a href="{{talk.talk_github_url}}" target="_blank"><img src="/assets/img/talks/github.png" alt="GitHub" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_photos_url && talk.talk_photos_url != "" && talk.talk_photos_url != nil %}
-                            <a href="{{talk.talk_photos_url}}" target="_blank"><img src="/assets/img/talks/gallery.png" alt="Photos" class="talkicon"/></a>
-                            {% endif %}
-                            {% if talk.talk_video_url && talk.talk_video_url != "" && talk.talk_video_url != nil %}
-                            <a href="{{talk.talk_video_url}}" target="_blank"><img src="/assets/img/talks/video.png" alt="Video" class="talkicon"/></a>
-                            {% endif %}
-                        </div>
+                    <div class="col-md-1">
+                        <p>{{ talk.talk_date}}</p>
                     </div>
-                    {% endif %}
-                    <hr />
-                    {% endfor %}  
+                    <div class="col-md-4">
+                        <p>{{ talk.talk_event}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>{{ talk.talk_session}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        {% if talk.talk_event_url && talk.talk_event_url != "" && talk.talk_event_url != nil %}
+                        <a href="{{talk.talk_event_url}}" target="_blank"><img src="/assets/img/talks/website.png" alt="Event Website" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_session_url && talk.talk_session_url != "" && talk.talk_session_url != nil %}
+                        <a href="{{talk.talk_session_url}}" target="_blank"><img src="/assets/img/talks/session.png" alt="Session Details Page" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_slides_url && talk.talk_slides_url != "" && talk.talk_slides_url != nil %}
+                        <a href="{{talk.talk_slides_url}}" target="_blank"><img src="/assets/img/talks/powerpoint.png" alt="Slides" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_code_url && talk.talk_code_url != "" && talk.talk_code_url != nil %}
+                        <a href="{{talk.talk_code_url}}" target="_blank"><img src="/assets/img/talks/source-code.png" alt="Source Code" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_github_url && talk.talk_github_url != "" && talk.talk_github_url != nil %}
+                        <a href="{{talk.talk_github_url}}" target="_blank"><img src="/assets/img/talks/github.png" alt="GitHub" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_photos_url && talk.talk_photos_url != "" && talk.talk_photos_url != nil %}
+                        <a href="{{talk.talk_photos_url}}" target="_blank"><img src="/assets/img/talks/gallery.png" alt="Photos" class="talkicon"/></a>
+                        {% endif %}
+                        {% if talk.talk_video_url && talk.talk_video_url != "" && talk.talk_video_url != nil %}
+                        <a href="{{talk.talk_video_url}}" target="_blank"><img src="/assets/img/talks/video.png" alt="Video" class="talkicon"/></a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                <hr />
+                {% endfor %}  
             </div>
             {% endif %}
 
