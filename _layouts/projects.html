@@ -21,7 +21,7 @@ layout: default
                             <p class="experience-desc"> {{ project.project_description }} </p>
                             <p><a class="github-button" href="{{project.project_url}}" aria-label="{{ project.project_title }} on GitHub" data-size="large">View on GitHub</a></p> 
                             {% if project.project_nuget && project.project_nuget != "" && project.project_nuget != nil %}
-                            <p><a href="{{project.project_nuget}}" target="_blank">NuGet Package</a></p> 
+                            <p><a class="github-button" href="{{project.project_nuget}}" aria-label="{{ project.project_title }} on NuGet" target="_blank" data-icon="/assets/img/nuget.svg">Get NuGet Package</a></p> 
                             {% endif %}
                         </div>
                     </div>
