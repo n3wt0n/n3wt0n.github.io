@@ -12,5 +12,4 @@ body{
 
 .btn-nuget::before {
     content:url('/assets/img/nuget-logo-small.png');
-    content: url( ) 
 }
