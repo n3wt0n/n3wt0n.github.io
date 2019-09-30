@@ -5,11 +5,3 @@ body{
 .btn-default {
     border-color: rgb(0, 123, 255) !important;
 }
-
-.btn-github::before {
-    content:url('/assets/img/github-logo-small.png');
-}
-
-.btn-nuget::before {
-    content:url('/assets/img/nuget-logo-small.png');
-}
