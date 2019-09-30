@@ -19,9 +19,9 @@ layout: default
                             <h4 class="experience-title"> {{ project.project_title }}</h4>
                             <h6 class="experience-info"> {{ project.project_info}}</h6>
                             <p class="experience-desc"> {{ project.project_description }} </p>
-                            <p><a class="github-button" href="{{project.project_url}}" aria-label="{{ project.project_title }} on GitHub" data-size="large">View on GitHub</a> 
+                            <p><a class="btn btn-default" href="{{project.project_url}}" target="_blank" >View on GitHub</a> 
                             {% if project.project_nuget && project.project_nuget != "" && project.project_nuget != nil %}
-                            &nbsp;&nbsp;<a class="github-button" href="{{project.project_nuget}}" aria-label="{{ project.project_title }} on NuGet" target="_blank" data-size="large" data-icon="https://upload.wikimedia.org/wikipedia/commons/2/25/NuGet_project_logo.svg">Get NuGet Package</a> 
+                            &nbsp;&nbsp;<a class="btn btn-default" href="{{project.project_nuget}}" target="_blank">Get NuGet Package</a> 
                             {% endif %}
                             </p>
                         </div>
