@@ -103,51 +103,40 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
-              - talk_date: 18/6/2019
+              - talk_date: 18/06/2019
                 talk_event: Azure Developer Camp
                 talk_session: Architect your app modernization journey with containers on Microsoft Azure
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6941917abcd#
+                talk_slides_url: https://www.slideshare.net/n3wt0n/rchitect-your-app-modernization-journey-with-containers-on-microsoft-azure/edit?src=slideview
+                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215946275382454
                 visibility: true
-              - talk_date: 18/6/2019
+              - talk_date: 18/06/2019
                 talk_event: Azure Developer Camp
                 talk_session: Azure Kubernetes Workshop
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6941917abcd#
+                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215946624311177
                 visibility: true
-              - talk_date: DATE
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+              - talk_date: 21/05/2019
+                talk_event: Microsoft //BUILD Community Event Hong Kong
+                talk_session: Deep dive notable announcements
+                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6958067abcd
+                talk_session_url: https://www.facebook.com/mshktech/posts/10155952689106901
+                talk_slides_url: https://www.slideshare.net/n3wt0n/build-2019-hk-deep-dive-notable-announcements
+                talk_code_url: https://dev.azure.com/dabenveg/_git/Build2019HKAppConf
+                talk_photos_url: https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmshktech%2Fposts%2F10155971407161901&width=500
                 visibility: true
-              - talk_date: DATE
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: SITE
-                talk_session_url: SITE
-                talk_slides_url: SITE
-                talk_code_url: SITE
-                talk_github_url: SITE
-                talk_photos_url: SITE
-                talk_video_url: SITE
+              - talk_date: 10/04/2018
+                talk_event: Visual Studio 2019 Launch Viewing Party
+                talk_session: Event Support and Q&A
+                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/259910929/
+                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/29874996/
                 visibility: true
-              - talk_date: 20-21/2/2019
+              - talk_date: 27/03/2019
+                talk_event: Tuesday with Techies
+                talk_session: Azure Kubernetes Service
+                talk_video_url: https://www.facebook.com/watch/?v=338949670303894
+                visibility: true
+              - talk_date: 20-21/02/2019
                 talk_event: Microsoft Ignite the tour HK
                 talk_session: Demo Booth - Serverless
                 talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215172400436064
@@ -184,28 +173,28 @@ author_talk_details:
                 talk_slides_url: https://www.slideshare.net/n3wt0n/how-i-choose-which-services-to-use-in-azure
                 talk_photos_url: https://www.facebook.com/pg/microsofthkrmvp/photos/?tab=album&album_id=1909465285772628&__xts__%5B0%5D=68.ARD1E83VGeHEM0o9v-nuBq152iYCCyqnFeC1yzVaMXIDPvHsVsrWUoxTlTBJAg4h3jPnqVd98z3R1UqT_TRj2-329TuZr10GhduPyxkAgk50Ztas-i72UpYk9cgf5zGDxGZ-bvdmjnaP7cIXDUlai9nsppe6xHnqJJhZw8oWT5S94kW7OGqAR7uNIfs8_5U-Zq8FaAiig_QKYhre3e4kfiwcSd8N7-LGuVgQUBDF20FkzIHffF8zfzTscPY7e26Pw40DMSH4g2PZoriWUUhXFWgrgj8li38BgCCna6YWz2jzoLTEKW8lUH-SPPJxVNgAJ4A6e_4un-ilHJoomaG5rFkFQ5uTf0vnGBZ67gMGsV0P_BLZBF7rfyBbkMjFtW3iqpOxmRxgW0nT2jzAGFD2p1drRDVMEu8s8_TUnPR3OE7G2-GZhS8fcwqOBmFdLd5eVeZtMR4YZqr1N9DdsGfqSkOMpQv2YRsOBpszKpapFPXtXJCCVytKx6PFDHNhoHekfnAylaANTVxiIFuwexXe5ILdEe1HCSk6yxHXT5qpz6RKdaQK&__tn__=-UC-R
                 visibility: true
-              - talk_date: 29/3/2018
+              - talk_date: 29/03/2018
                 talk_event: Microsoft TechSummit Hong Kong
                 talk_session: Develop a Serverless Integration Platform for the Enterprise
                 talk_event_url: https://www.microsoft.com/hk/techsummit2018
                 talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
                 talk_slides_url: https://www.slideshare.net/n3wt0n/develop-a-serverless-integration-platform-for-the-enterprise
                 visibility: true
-              - talk_date: 29/3/2018
+              - talk_date: 29/03/2018
                 talk_event: Microsoft TechSummit Hong Kong
                 talk_session: Microservices with Azure Service Fabric 
                 talk_event_url: https://www.microsoft.com/hk/techsummit2018
                 talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
                 talk_slides_url: https://www.slideshare.net/n3wt0n/microservices-with-azure-service-fabric-175684815
                 visibility: true
-              - talk_date: 29/3/2018
+              - talk_date: 29/03/2018
                 talk_event: Microsoft TechSummit Hong Kong
                 talk_session: Go Serverless - Best Practices, Design Patterns, and Real World Scenarios
                 talk_event_url: https://www.microsoft.com/hk/techsummit2018
                 talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
                 talk_slides_url: https://www.slideshare.net/n3wt0n/go-serverless-best-practices-design-patterns-and-real-world-scenarios
                 visibility: true
-              - talk_date: 29/3/2018
+              - talk_date: 29/03/2018
                 talk_event: Microsoft TechSummit Hong Kong
                 talk_session: Secure your applications with Azure AD and Key Vault
                 talk_event_url: https://www.microsoft.com/hk/techsummit2018
@@ -248,14 +237,14 @@ author_talk_details:
                 talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-techsummit-deploy-your-solution-to-iaas-and-paas-with-vsts-and-azure-dev311
                 talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10209617406764694
                 visibility: true
-              - talk_date: 3/2/2017
+              - talk_date: 03/02/2017
                 talk_event: Visual Studio 2017, novità e dintorni da Connect()
                 talk_session: Le novità di Visual Studio Team Services... E non solo
                 talk_event_url: http://www.dotnettoscana.org/eventi/visual-studio-2017-novità-e-dintorni-da-connect/
                 talk_slides_url: https://www.slideshare.net/n3wt0n/vs2017pi-le-novit-di-visual-studio-team-services
                 talk_video_url: https://youtu.be/f-e1s2mETkI
                 visibility: true
-              - talk_date: 12/1/2017
+              - talk_date: 12/01/2017
                 talk_event: Microsoft Tech Forum
                 talk_session: Accelerate Your Bot Development with DevOps
                 talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x950970d86c&wt.mc_id=AID561806_QSG_29652
