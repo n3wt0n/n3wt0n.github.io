@@ -536,8 +536,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# google analytics
-#google_analytics: UA-46783401-10 
+# Application Insights
+application_insights_key: c72f18ae-4924-4277-8222-a2327fbe32f9
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
