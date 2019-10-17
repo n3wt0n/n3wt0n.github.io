@@ -161,6 +161,11 @@ code {
     width: 50px;
 }
 
+.badge-img {
+    width: 130px;
+    margin-right: 10px;
+}
+
 // Variables
 $color--default: #3a3a3a;
 $color--light: lighten($color--default, 65%);
