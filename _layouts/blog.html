@@ -33,7 +33,11 @@ layout: default
                             <p class="card-text">{{ post.summary }} </p>
 
                             <!-- <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a> -->
-                            <a href="{{ post.blogurl }}" class="btn btn-primary btn-lg">Visit</a>
+                            {% if post.primary %}
+                            <a href="{{ post.blogurl }}" target="_blank" class="btn btn-primary btn-lg">Visit</a>
+                            {% else %}
+                            <a href="{{ post.blogurl }}" target="_blank" class="btn btn-default btn-lg">Visit</a>
+                            {% endif %}
                             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
                         </div>
