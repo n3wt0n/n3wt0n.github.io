@@ -1,7 +1,8 @@
 --- 
 layout: default 
 ---
-    <div class="row">
+<!--    
+<div class="row">
       <div class="col-md-12">
         <div class="card" style="display: block;">
           This is my <b>New Blog</b>. If you want to take a look at the previous version, and all the older posts, tale a look at <a href="http://blog-eng.dbtek.it" target="_blank">http://blog-eng.dbtek.it</a> (ENG) or <a href="http://blog.dbtek.it" target="_blank">http://blog.dbtek.it</a> (ITA).
@@ -9,7 +10,7 @@ layout: default
       </div>
     </div>
     <div class="row">
- 
+ -->
         <div class="col-lg-8 col-md-4">
            
                 <!-- Blog Posts -->
@@ -26,6 +27,7 @@ layout: default
                             <p class="card-text">{{ post.summary }} </p>
 
                             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
+                            <a href="{{ post.blogurl }}" class="btn btn-default btn-lg">Visit</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
                         </div>
