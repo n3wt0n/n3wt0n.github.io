@@ -108,6 +108,7 @@ author_talk_details:
                 talk_session: How Microsoft transformed adopting Agile
                 talk_event_url: https://www.meetup.com/Agile-Hong-Kong/events/267268902/
                 talk_photos_url: https://www.meetup.com/Agile-Hong-Kong/photos/30686730/
+                visibility: true
               - talk_date: 18/06/2019
                 talk_event: Azure Developer Camp
                 talk_session: Architect your app modernization journey with containers on Microsoft Azure
