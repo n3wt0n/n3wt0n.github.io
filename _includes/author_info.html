@@ -6,6 +6,10 @@
 <h6><i class="fas fa-envelope"></i> <a href="/contact">Use Contact form</a> </h6>
 {% endif %}
 
+{% if site.youtube_channel %}
+<h6><i class="fas fa-youtube"></i> <a href="https://www.youtube.com/channel/{{ site.youtube_channel }}" target="_blank">YouTube Channel: CoderDave</a> </h6>
+{% endif %}
+
 {% if site.author_website_url %}
 <h6> <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
 {% endif %}
