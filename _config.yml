@@ -102,7 +102,25 @@ author_project_details:
                 project_nuget: https://www.nuget.org/packages/DBTek.Crypto
                 visibility: true
 
-author_talk_details:              
+author_talk_details:
+              - talk_date: 16/04/2020
+                talk_event: Microsoft Online Tech Forum
+                talk_session: Consolidating Infrastructure with Azure Kubernetes Service
+                talk_event_url: https://techforum.microsoft.com/virtualsummit/en-hk
+                talk_session_url: https://techforum.microsoft.com/virtualsummit/en-hk/detail?channel_id=100001&schedule_id=126
+                talk_slides_url: https://www.slideshare.net/n3wt0n/consolidating-infrastructure-with-azure-kubernetes-service-ms-online-tech-forum
+                talk_photos_url: https://onedrive.live.com/?cid=06881D6253CAAF6C&id=06881D6253CAAF6C%21583320&parId=06881D6253CAAF6C%21583318
+                talk_video_url: https://youtu.be/I0G4jF2TZ7Q
+                visibility: true  
+              - talk_date: 16/04/2020
+                talk_event: Microsoft Online Tech Forum
+                talk_session: Debugging and interacting with production applications
+                talk_event_url: https://techforum.microsoft.com/virtualsummit/en-hk
+                talk_session_url: https://techforum.microsoft.com/virtualsummit/en-hk/detail?channel_id=100001&schedule_id=137
+                talk_slides_url: https://www.slideshare.net/n3wt0n/debugging-and-interacting-with-production-applications-232086628
+                talk_photos_url: https://onedrive.live.com/?cid=06881D6253CAAF6C&id=06881D6253CAAF6C%21583321&parId=06881D6253CAAF6C%21583318
+                talk_video_url: http://youtu.be/Diwtwv5k7-k
+                visibility: true            
               - talk_date: 20/01/2020
                 talk_event: Agile Hong Kong
                 talk_session: How Microsoft transformed adopting Agile
