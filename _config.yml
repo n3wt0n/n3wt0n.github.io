@@ -103,6 +103,25 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
+              
+              - talk_date: 12/06/2020
+                talk_event: Hong Kong Open Source Conference
+                talk_session: GitHub Actions - Your free CI engine (and much more)
+                talk_event_url: https://hkoscon.org/2020/
+                talk_session_url: https://hkoscon.org/2020/topics/github-actions-your-free-ci-engine-and-much-more/
+                talk_slides_url: http://aaa.bbb.ccc
+                talk_code_url: http://aaa.bbb.ccc
+                talk_github_url: http://aaa.bbb.ccc
+                talk_photos_url: http://aaa.bbb.ccc
+                talk_video_url: http://aaa.bbb.ccc
+                visibility: false
+              - talk_date: 20/05/2020
+                talk_event: Microsoft Build 2020
+                talk_session: Life of a Remote Developer - Productivity tips
+                talk_event_url: https://www.microsoft.com/en-us/build
+                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10218715063360423
+                talk_slides_url: https://www.slideshare.net/n3wt0n/life-of-a-remote-developer-productivity-tips-msbuild-2020
+                visibility: true
               - talk_date: 16/04/2020
                 talk_event: Microsoft Online Tech Forum
                 talk_session: Consolidating Infrastructure with Azure Kubernetes Service
