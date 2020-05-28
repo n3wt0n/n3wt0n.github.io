@@ -115,6 +115,11 @@ author_talk_details:
                 talk_photos_url: http://aaa.bbb.ccc
                 talk_video_url: http://aaa.bbb.ccc
                 visibility: false
+              - talk_date: 27/05/2020
+                talk_event: 4 chiacchere su Build 2020
+                talk_session: 4 chiacchere su Build 2020
+                talk_event_url: http://www.dotnettoscana.org/eventi/4-chiacchere-su-build-2020/
+                visibility: true
               - talk_date: 20/05/2020
                 talk_event: Microsoft Build 2020
                 talk_session: Life of a Remote Developer - Productivity tips
