@@ -119,6 +119,7 @@ author_talk_details:
                 talk_event: 4 chiacchere su Build 2020
                 talk_session: 4 chiacchere su Build 2020
                 talk_event_url: http://www.dotnettoscana.org/eventi/4-chiacchere-su-build-2020/
+                talk_video_url: https://www.youtube.com/watch?v=IufFrvc5i1o&feature=youtu.be
                 visibility: true
               - talk_date: 20/05/2020
                 talk_event: Microsoft Build 2020
