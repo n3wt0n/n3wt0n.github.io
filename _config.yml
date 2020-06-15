@@ -113,8 +113,8 @@ author_talk_details:
                 talk_code_url: http://aaa.bbb.ccc
                 talk_github_url: http://aaa.bbb.ccc
                 talk_photos_url: http://aaa.bbb.ccc
-                talk_video_url: http://aaa.bbb.ccc
-                visibility: false
+                talk_video_url: https://www.youtube.com/watch?v=wVNbMri_7gw
+                visibility: true
               - talk_date: 27/05/2020
                 talk_event: 4 chiacchere su Build 2020
                 talk_session: 4 chiacchere su Build 2020
