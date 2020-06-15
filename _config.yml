@@ -109,9 +109,8 @@ author_talk_details:
                 talk_session: GitHub Actions - Your free CI engine (and much more)
                 talk_event_url: https://hkoscon.org/2020/
                 talk_session_url: https://hkoscon.org/2020/topics/github-actions-your-free-ci-engine-and-much-more/
-                talk_slides_url: http://aaa.bbb.ccc
-                talk_code_url: http://aaa.bbb.ccc
-                talk_github_url: http://aaa.bbb.ccc
+                talk_slides_url: https://www.slideshare.net/n3wt0n/github-actions-your-free-ci-engine-and-much-more
+                talk_github_url: https://github.com/n3wt0n/HKOSCon2020
                 talk_photos_url: http://aaa.bbb.ccc
                 talk_video_url: http://aaa.bbb.ccc
                 visibility: false
