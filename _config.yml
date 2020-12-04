@@ -103,7 +103,14 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
-              
+              - talk_date: 02/12/2020
+                talk_event: .NET Conf 2020 by DotNetToscana
+                talk_session:  CI\CD per .Net 5? Facile con Azure Pipelines e GitHub Actions 
+                talk_event_url: https://www.dotnettoscana.org/eventi/net-conf-2020-by-dotnettoscana/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/ci-cd-per-net-5-facile-con-azure-pipelines-e-github-actions
+                talk_github_url: https://github.com/n3wt0n/DotNetConf2020
+                talk_video_url: https://youtu.be/JfhP2gIzXr0
+                visibility: true
               - talk_date: 12/06/2020
                 talk_event: Hong Kong Open Source Conference
                 talk_session: GitHub Actions - Your free CI engine (and much more)
