@@ -103,6 +103,26 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
+              - talk_date: 28/05/2021
+                talk_event: MVP Microsoft Build 2021 Viewing Party Malaysia
+                talk_session: History of MS Development Technologies and Q&A
+                talk_event_url: https://buildparty.azurewebsites.net/
+                visibility: false
+              - talk_date: 11/05/2021
+                talk_event: Microsoft Skills Bootcamp
+                talk_session: The Power of GitHub & Azure
+                talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-skills-bootcamp-the-power-of-github-and-azure
+                talk_github_url: https://github.com/n3wt0n/SmartHotel360-Website/
+                visibility: true
+              - talk_date: 27/04/2021
+                talk_event: All Around Azure - DevOps with GitHub
+                talk_session: DevOps in Azure - Managing the Flow of Work
+                talk_event_url: https://aaa-devopsgitub.splashthat.com/
+                talk_session_url: https://aaa-devopsgitub.splashthat.com/#sfid-3063732878
+                talk_slides_url: https://www.slideshare.net/n3wt0n/all-around-azure-devops-with-github-managing-the-flow-of-work
+                talk_photos_url: http://aaa.bbb.ccc
+                talk_video_url: https://youtu.be/SDEu24HtCRY
+                visibility: true
               - talk_date: 02/12/2020
                 talk_event: .NET Conf 2020 by DotNetToscana
                 talk_session:  CI\CD per .Net 5? Facile con Azure Pipelines e GitHub Actions 
