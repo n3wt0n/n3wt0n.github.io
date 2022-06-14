@@ -50,6 +50,12 @@ author_location: Hong Kong
 author_website_url: "http://www.davidebenvegnu.com"
 
 author_work_experiences: 
+            - company_name: Playstudios
+              company_logo: playstudios.jpg
+              company_url: https://playstudios.asia
+              designation: DevOps and Infra Lead
+              description: Leading the DevOps, Infra, DB, and Performance Engineering teams.
+              visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
