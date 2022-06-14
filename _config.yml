@@ -109,11 +109,30 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
+              - talk_date: 11/06/2022
+                talk_event: Hong Kong Open Source Conference 2022
+                talk_session: Secure Your Open Source Projects For Free
+                talk_event_url: https://2022.hkoscon.org/
+                talk_session_url: https://2022.hkoscon.org/davidebenvegnu/
+                talk_slides_url: https://www.slideshare.net/n3wt0n/secure-your-open-source-projects-for-free
+                talk_github_url: https://github.com/n3wt0n/HKOSCon2022
+                talk_video_url: https://youtu.be/QPKRd3jNnys
+                visibility: true
+              - talk_date: 21/03/2022
+                talk_event: HK Developer Magazine
+                talk_session: Interview about DevOps and being a MVP
+                talk_video_url: https://youtu.be/7oBMZxuttCk
+                visibility: true
+              - talk_date: 16/11/2021
+                talk_event: Cloudsec 2021
+                talk_session: The Importance of DevSecOps
+                talk_video_url: https://www.youtube.com/watch?v=KaoPQLyWq_g
+                visibility: true
               - talk_date: 28/05/2021
                 talk_event: MVP Microsoft Build 2021 Viewing Party Malaysia
                 talk_session: History of MS Development Technologies and Q&A
                 talk_event_url: https://buildparty.azurewebsites.net/
-                visibility: false
+                visibility: true
               - talk_date: 11/05/2021
                 talk_event: Microsoft Skills Bootcamp
                 talk_session: The Power of GitHub & Azure
