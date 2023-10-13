@@ -1,5 +1,5 @@
 title: Davide Benvegnu
-subtitle: DevOps Architect, Videographer, Amateur Photographer, International Speaker, MMA fighter
+subtitle: DevOps and Infrastructrure Lead, International Speaker, Microsoft MVP
 description: >- # this means to ignore newlines until "baseurl:"
   Davide Benvegnu's website
 
@@ -36,15 +36,19 @@ author_bio: >-
   <br/><br/>
   My name is <b>Davide Benvegnù</b>, I was born on July 15th, 1984 in Trieste, a city where I lived for many years. After a "Tuscan moment", having moved to the charming city of Subbiano, now I live and work in Hong Kong.
   <br/><br/>
-  I deal mainly in computer science, at various levels. Currently I am <b>DevOps Architect</b> for Microsoft, and I used to be a <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001160?fullName=Davide%20Benvegn%C3%B9" target="_blank">Microsoft MVP in Visual Studio Application Lifecycle Management</a> (ALM) for 3 years in a row.
+  Currently I am the <b>DevOps and Infrastructure Lead</b> at Playstudios. Before I worked as <b>DevOps Architect</b> for Microsoft and GitHub.
+  <br/><br/>
+  I have been awarded as <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001160?fullName=Davide%20Benvegn%C3%B9" target="_blank">Microsoft MVP (Most Valuable Professional)</a> in ALM and DevOps for 5 time, in 2015, 2016, 2017, 2022, and 2023 .
   <br/><br/>
   I'm a staff member of <a href="http://www.dotnettoscana.org/" target="_blank">DotNetToscana</a>, an official Microsoft technical <b>community</b>, where I organize events and have speeches at technical conferences about DevOps, the .Net world, Azure, containers and serverless.
   <br/>
   I'm also the founder of the <a href="http://www.hkmsc.org/" target="_blank">HKMSC - Hong Kong Microsoft Community</a>.
   <br/><br/>
-  I have been practicing Mixed Martial Arts (<b>MMA</b>) for some time before moving to Hong Kong, with the Spartan Club Arezzo. Now I train at Impakt, with some of the best fighters in Hong Kong.
+  I have been a Mixed Martial Arts (<b>MMA</b>) fighter for some time before moving to Hong Kong, with the Spartan Club Arezzo, and in HK with Impakt. I had to stop due to an injury.
   <br/><br/>
-  I also like the modern and contemporary art, especially abstract paintings.  
+  I also like the modern and contemporary art, especially abstract paintings, and <b>photography</b> You can see some of my works on my <a href="https://davide.ph" target="_blank">Photography Website</a>. 
+  <br/><br/>
+  Lastly, and fedinitely not for importance, I run a <b>YouTube channel about DevOps</b> called <a href="https://youtube.com/CoderDave" target="_blank">CoderDave</a>.
 author_email: "davide.benvegnu@outlook.com"
 author_location: Hong Kong
 author_website_url: "http://www.davidebenvegnu.com"
