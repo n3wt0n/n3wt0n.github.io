@@ -94,6 +94,11 @@ author_education_details:
                 visibility: false
 
 author_project_details:
+              - project_thumbnail: FeedEx.png
+                project_title: FeedEx
+                project_description: Tired of missing out on the latest news and updates from your favorite sources? With FeedEx you will stay up-to-date, all within one convenient tool. 📧
+                project_url: https://www.feedex.app
+                visibility: true
               - project_thumbnail: AzureWebAppSSLManager.png
                 project_title: Azure WebApp SSL Manager
                 project_description: An Azure Function that acquires and manages free SSL certificates for Azure Web App hosted applications.
@@ -113,6 +118,14 @@ author_project_details:
                 visibility: true
 
 author_talk_details:
+              - talk_date: 21/09/2023
+                talk_event: Empowering Digital Trust - Data Security and Beyond 
+                talk_session: DevSecOps Done Right - Strategies and Tools 
+                talk_event_url: https://thetehgroup.com/e/CyberattacksagainstCorporateNetworks-TheCurrentThreat,RiskandModelforDevSecOps?ID=1691395346104x323909449663119360
+                talk_session_url: https://1drv.ms/b/s!AmyvylNiHYgGpOJBrmPckVAwnzz4uw
+                talk_slides_url: https://www.slideshare.net/n3wt0n/devsecops-done-right-strategies-and-toolspptx
+                talk_photos_url: https://1drv.ms/f/s!AmyvylNiHYgGpOJC87_GAUFqub4J0w?e=xEd878
+                visibility: true
               - talk_date: 11/06/2022
                 talk_event: Hong Kong Open Source Conference 2022
                 talk_session: Secure Your Open Source Projects For Free
