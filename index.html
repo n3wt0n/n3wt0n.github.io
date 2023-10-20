@@ -17,21 +17,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
 
     <script type="text/javascript">
-        !(function (cfg){function e(){cfg.onInit&&cfg.onInit(i)}var S,u,D,t,n,i,C=window,x=document,w=C.location,I="script",b="ingestionendpoint",E="disableExceptionTracking",A="ai.device.";"instrumentationKey"[S="toLowerCase"](),u="crossOrigin",D="POST",t="appInsightsSDK",n=cfg.name||"appInsights",(cfg.name||C[t])&&(C[t]=n),i=C[n]||function(l){var d=!1,g=!1,f={initialize:!0,queue:[],sv:"7",version:2,config:l};function m(e,t){var n={},i="Browser";function a(e){e=""+e;return 1===e.length?"0"+e:e}return n[A+"id"]=i[S](),n[A+"type"]=i,n["ai.operation.name"]=w&&w.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(f.sv||f.version),{time:(i=new Date).getUTCFullYear()+"-"+a(1+i.getUTCMonth())+"-"+a(i.getUTCDate())+"T"+a(i.getUTCHours())+":"+a(i.getUTCMinutes())+":"+a(i.getUTCSeconds())+"."+(i.getUTCMilliseconds()/1e3).toFixed(3).slice(2,5)+"Z",iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}},ver:4,seq:"1",aiDataContract:undefined}}var h=-1,v=0,y=["js.monitor.azure.com","js.cdn.applicationinsights.io","js.cdn.monitor.azure.com","js0.cdn.applicationinsights.io","js0.cdn.monitor.azure.com","js2.cdn.applicationinsights.io","js2.cdn.monitor.azure.com","az416426.vo.msecnd.net"],k=l.url||cfg.src;if(k){if((n=navigator)&&(~(n=(n.userAgent||"").toLowerCase()).indexOf("msie")||~n.indexOf("trident/"))&&~k.indexOf("ai.3")&&(k=k.replace(/(\/)(ai\.3\.)([^\d]*)$/,function(e,t,n){return t+"ai.2"+n})),!1!==cfg.cr)for(var e=0;e<y.length;e++)if(0<k.indexOf(y[e])){h=e;break}var i=function(e){var a,t,n,i,o,r,s,c,p,u;f.queue=[],g||(0<=h&&v+1<y.length?(a=(h+v+1)%y.length,T(k.replace(/^(.*\/\/)([\w\.]*)(\/.*)$/,function(e,t,n,i){return t+y[a]+i})),v+=1):(d=g=!0,o=k,c=(p=function(){var e,t={},n=l.connectionString;if(n)for(var i=n.split(";"),a=0;a<i.length;a++){var o=i[a].split("=");2===o.length&&(t[o[0][S]()]=o[1])}return t[b]||(e=(n=t.endpointsuffix)?t.location:null,t[b]="https://"+(e?e+".":"")+"dc."+(n||"services.visualstudio.com")),t}()).instrumentationkey||l.instrumentationKey||"",p=(p=p[b])?p+"/v2/track":l.endpointUrl,(u=[]).push((t="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",n=o,r=p,(s=(i=m(c,"Exception")).data).baseType="ExceptionData",s.baseData.exceptions=[{typeName:"SDKLoadFailed",message:t.replace(/\./g,"-"),hasFullStack:!1,stack:t+"\nSnippet failed to load ["+n+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(w&&w.pathname||"_unknown_")+"\nEndpoint: "+r,parsedStack:[]}],i)),u.push((s=o,t=p,(r=(n=m(c,"Message")).data).baseType="MessageData",(i=r.baseData).message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+s+")").replace(/\"/g,"")+'"',i.properties={endpoint:t},n)),o=u,c=p,JSON&&((r=C.fetch)&&!cfg.useXhr?r(c,{method:D,body:JSON.stringify(o),mode:"cors"}):XMLHttpRequest&&((s=new XMLHttpRequest).open(D,c),s.setRequestHeader("Content-type","application/json"),s.send(JSON.stringify(o))))))},a=function(e,t){g||setTimeout(function(){!t&&f.core||i()},500),d=!1},T=function(e){var n=x.createElement(I),e=(n.src=e,cfg[u]);return!e&&""!==e||"undefined"==n[u]||(n[u]=e),n.onload=a,n.onerror=i,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||a(0,t)},cfg.ld&&cfg.ld<0?x.getElementsByTagName("head")[0].appendChild(n):setTimeout(function(){x.getElementsByTagName(I)[0].parentNode.appendChild(n)},cfg.ld||0),n};T(k)}try{f.cookie=x.cookie}catch(p){}function t(e){for(;e.length;)!function(t){f[t]=function(){var e=arguments;d||f.queue.push(function(){f[t].apply(f,e)})}}(e.pop())}var r,s,n="track",o="TrackPage",c="TrackEvent",n=(t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+o,"stop"+o,"start"+c,"stop"+c,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),f.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4},(l.extensionConfig||{}).ApplicationInsightsAnalytics||{});return!0!==l[E]&&!0!==n[E]&&(t(["_"+(r="onerror")]),s=C[r],C[r]=function(e,t,n,i,a){var o=s&&s(e,t,n,i,a);return!0!==o&&f["_"+r]({message:e,url:t,lineNumber:n,columnNumber:i,error:a,evt:C.event}),o},l.autoExceptionInstrumented=!0),f}(cfg.cfg),(C[n]=i).queue&&0===i.queue.length?(i.queue.push(e),i.trackPageView({})):e();})({
-        src: "https://js.monitor.azure.com/scripts/b/ai.3.gbl.min.js",
-        // name: "appInsights",
-        // ld: 0,
-        // useXhr: 1,
-        crossOrigin: "anonymous",
-        // onInit: null,
-        // cr: 0,
-        cfg: { // Application Insights Configuration
-         connectionString: "InstrumentationKey=c72f18ae-4924-4277-8222-a2327fbe32f9;IngestionEndpoint=https://eastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://eastasia.livediagnostics.monitor.azure.com/"
-        }});
-        </script>
+        !(function (cfg) { function e() { cfg.onInit && cfg.onInit(i) } var S, u, D, t, n, i, C = window, x = document, w = C.location, I = "script", b = "ingestionendpoint", E = "disableExceptionTracking", A = "ai.device."; "instrumentationKey"[S = "toLowerCase"](), u = "crossOrigin", D = "POST", t = "appInsightsSDK", n = cfg.name || "appInsights", (cfg.name || C[t]) && (C[t] = n), i = C[n] || function (l) { var d = !1, g = !1, f = { initialize: !0, queue: [], sv: "7", version: 2, config: l }; function m(e, t) { var n = {}, i = "Browser"; function a(e) { e = "" + e; return 1 === e.length ? "0" + e : e } return n[A + "id"] = i[S](), n[A + "type"] = i, n["ai.operation.name"] = w && w.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (f.sv || f.version), { time: (i = new Date).getUTCFullYear() + "-" + a(1 + i.getUTCMonth()) + "-" + a(i.getUTCDate()) + "T" + a(i.getUTCHours()) + ":" + a(i.getUTCMinutes()) + ":" + a(i.getUTCSeconds()) + "." + (i.getUTCMilliseconds() / 1e3).toFixed(3).slice(2, 5) + "Z", iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } }, ver: 4, seq: "1", aiDataContract: undefined } } var h = -1, v = 0, y = ["js.monitor.azure.com", "js.cdn.applicationinsights.io", "js.cdn.monitor.azure.com", "js0.cdn.applicationinsights.io", "js0.cdn.monitor.azure.com", "js2.cdn.applicationinsights.io", "js2.cdn.monitor.azure.com", "az416426.vo.msecnd.net"], k = l.url || cfg.src; if (k) { if ((n = navigator) && (~(n = (n.userAgent || "").toLowerCase()).indexOf("msie") || ~n.indexOf("trident/")) && ~k.indexOf("ai.3") && (k = k.replace(/(\/)(ai\.3\.)([^\d]*)$/, function (e, t, n) { return t + "ai.2" + n })), !1 !== cfg.cr) for (var e = 0; e < y.length; e++)if (0 < k.indexOf(y[e])) { h = e; break } var i = function (e) { var a, t, n, i, o, r, s, c, p, u; f.queue = [], g || (0 <= h && v + 1 < y.length ? (a = (h + v + 1) % y.length, T(k.replace(/^(.*\/\/)([\w\.]*)(\/.*)$/, function (e, t, n, i) { return t + y[a] + i })), v += 1) : (d = g = !0, o = k, c = (p = function () { var e, t = {}, n = l.connectionString; if (n) for (var i = n.split(";"), a = 0; a < i.length; a++) { var o = i[a].split("="); 2 === o.length && (t[o[0][S]()] = o[1]) } return t[b] || (e = (n = t.endpointsuffix) ? t.location : null, t[b] = "https://" + (e ? e + "." : "") + "dc." + (n || "services.visualstudio.com")), t }()).instrumentationkey || l.instrumentationKey || "", p = (p = p[b]) ? p + "/v2/track" : l.endpointUrl, (u = []).push((t = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", n = o, r = p, (s = (i = m(c, "Exception")).data).baseType = "ExceptionData", s.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: t.replace(/\./g, "-"), hasFullStack: !1, stack: t + "\nSnippet failed to load [" + n + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (w && w.pathname || "_unknown_") + "\nEndpoint: " + r, parsedStack: [] }], i)), u.push((s = o, t = p, (r = (n = m(c, "Message")).data).baseType = "MessageData", (i = r.baseData).message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + s + ")").replace(/\"/g, "") + '"', i.properties = { endpoint: t }, n)), o = u, c = p, JSON && ((r = C.fetch) && !cfg.useXhr ? r(c, { method: D, body: JSON.stringify(o), mode: "cors" }) : XMLHttpRequest && ((s = new XMLHttpRequest).open(D, c), s.setRequestHeader("Content-type", "application/json"), s.send(JSON.stringify(o)))))) }, a = function (e, t) { g || setTimeout(function () { !t && f.core || i() }, 500), d = !1 }, T = function (e) { var n = x.createElement(I), e = (n.src = e, cfg[u]); return !e && "" !== e || "undefined" == n[u] || (n[u] = e), n.onload = a, n.onerror = i, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || a(0, t) }, cfg.ld && cfg.ld < 0 ? x.getElementsByTagName("head")[0].appendChild(n) : setTimeout(function () { x.getElementsByTagName(I)[0].parentNode.appendChild(n) }, cfg.ld || 0), n }; T(k) } try { f.cookie = x.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { f[t] = function () { var e = arguments; d || f.queue.push(function () { f[t].apply(f, e) }) } }(e.pop()) } var r, s, n = "track", o = "TrackPage", c = "TrackEvent", n = (t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + o, "stop" + o, "start" + c, "stop" + c, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), f.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, (l.extensionConfig || {}).ApplicationInsightsAnalytics || {}); return !0 !== l[E] && !0 !== n[E] && (t(["_" + (r = "onerror")]), s = C[r], C[r] = function (e, t, n, i, a) { var o = s && s(e, t, n, i, a); return !0 !== o && f["_" + r]({ message: e, url: t, lineNumber: n, columnNumber: i, error: a, evt: C.event }), o }, l.autoExceptionInstrumented = !0), f }(cfg.cfg), (C[n] = i).queue && 0 === i.queue.length ? (i.queue.push(e), i.trackPageView({})) : e(); })({
+            src: "https://js.monitor.azure.com/scripts/b/ai.3.gbl.min.js",
+            // name: "appInsights",
+            // ld: 0,
+            // useXhr: 1,
+            crossOrigin: "anonymous",
+            // onInit: null,
+            // cr: 0,
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=c72f18ae-4924-4277-8222-a2327fbe32f9;IngestionEndpoint=https://eastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://eastasia.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
 </head>
 
-<body class="dark-mode">
+<body class="layout-top-nav dark-mode">
     <style>
         .card-footer {
             padding-top: 0 !important;
@@ -41,19 +42,21 @@
             padding-top: 50px;
         }
     </style>
-    <section class="content mt-2">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card card-primary card-outline">
-                        <div class="card-body box-profile">
-                            <div class="text-center">
-                                <img class="profile-user-img img-fluid img-circle" src="./assets/img/index/Profile.png"
-                                    alt="User profile picture">
-                            </div>
-                            <h3 class="profile-username text-center">Davide Benvegnu</h3>
-                            <p class="text-muted text-center">Jack of all trades</p>
-                            <!-- <ul class="list-group list-group-unbordered mb-3">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <section class="content mt-2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                    <div class="text-center">
+                                        <img class="profile-user-img img-fluid img-circle"
+                                            src="./assets/img/index/Profile.png" alt="User profile picture">
+                                    </div>
+                                    <h3 class="profile-username text-center">Davide Benvegnu</h3>
+                                    <p class="text-muted text-center">Jack of all trades</p>
+                                    <!-- <ul class="list-group list-group-unbordered mb-3">
                                 <li class="list-group-item">
                                     <b>Followers</b> <a class="float-right">1,322</a>
                                 </li>
@@ -65,359 +68,384 @@
                                 </li>
                             </ul>
                             <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a> -->
-                        </div>
-
-                    </div>
-                    <div class="card card-primary">
-                        <div class="card-header">
-                            <h3 class="card-title">About Me</h3>
-                        </div>
-
-                        <div class="card-body">
-                            <strong><i class="fas fa-book mr-1"></i> Education</strong>
-                            <p class="text-muted">
-                                IT Engineering, Universita degli studi di Trieste
-                                <br/>
-                                Technology Leadership Certificate, Cornell University
-                            </p>
-                            <hr>
-                            <strong><i class="fas fa-map-marker-alt mr-1"></i> Current Location</strong>
-                            <p class="text-muted">Hong Kong</p>
-                            <hr>
-                            <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
-                            <p class="text-muted">
-                                <span class="badge bg-info">DevOps</span>
-                                <span class="badge bg-info">Coding</span>
-                                <span class="badge bg-info">Cloud</span>
-                                <span class="badge bg-info">Public Speaking</span>
-                                <span class="badge bg-info">Photography</span>
-                                <span class="badge bg-info">Videography</span>
-                                <span class="badge bg-info">Sim Racing</span>
-                            </p>
-                            <hr>
-                            <strong><i class="far fa-file-alt mr-1"></i> Biography</strong>
-                            <p class="text-muted">My name is Davide Benvegnù, I was born on July 15th, 1984 in Trieste, Italy, and now I live and work in Hong Kong.
-                                <br /><br />
-                                Currently I am the DevOps and Infrastructure Lead at Playstudios. Before I worked as DevOps Architect for Microsoft and GitHub.
-                                <br /><br />
-                                I have been awarded as Microsoft MVP (Most Valuable Professional) in ALM and DevOps for 5 time, in 2015, 2016, 2017, 2022, and 2023 .
-                                <br /><br />
-                                I have been a Mixed Martial Arts (MMA) fighter for some time before moving to Hong Kong, with the Spartan Club Arezzo, and in HK with Impakt. I had to stop due to an injury.
-                                <br /><br />
-                                I have a background in real-life motor racing (in Motocross, Supermoto, and Supersport) and now I sim-race, mainly GT4 and GT3 cars.
-                                <br /><br />
-                                I also like the modern and contemporary art, especially abstract paintings, and photography. You can see some of my works on my Photography Website.
-                                <br /><br />
-                                Lastly, and definitely not for importance, I run a YouTube channel about DevOps called CoderDave.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="card">
-                        <div class="card-header">
-                            I'm so many different things...
-
-                            Which version of me you want to see?
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="card card-widget widget-user">
-                                        <div class="widget-user-header text-white"
-                                            style="background: url('./assets/img/index/me-banner.jpg') no-repeat center; background-size: cover;">
-                                            <div class="widget-user-image">
-                                                <img class="img-circle elevation-2" src="./assets/img/profile.jpg"
-                                                    alt="User Avatar">
-                                            </div>
-                                        </div>
-                                        <div class="card-body text-center">
-                                            <h3 class="widget-user-username">Davide Benvegnu</h3>
-                                            <h5 class="widget-user-desc">DevOps and Infrastructure Lead</h5>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="row">
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Website</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://www.davidebenvegnu.com/home"
-                                                                target=" ">Link</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">LinkedIn</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://linkedin.com/in/davidebenvegnu"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">MVP Profile</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://mvp.microsoft.com/en-us/PublicProfile/5001160"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="card card-widget widget-user">
-                                        <div class="widget-user-header text-white"
-                                            style="background: url('./assets/img/index/CoderDave-banner.png') no-repeat center; background-size: cover;">
-                                            <div class="widget-user-image">
-                                                <img class="img-circle elevation-2"
-                                                    src="./assets/img/index/CoderDave.jpg" alt="User Avatar">
-                                            </div>
-                                        </div>
-                                        <div class="card-body text-center">
-                                            <h3 class="widget-user-username">CoderDave</h3>
-                                            <h5 class="widget-user-desc">DevOps YouTuber</h5>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="row">
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Website</h5>
-                                                        <span class="description-text"><a href="https://coderdave.io"
-                                                                target="_blank">Link</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">YouTube</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://youtube.com/CoderDave"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Articles</h5>
-                                                        <span class="description-text"><a href="https://dev.to/n3wt0n"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card card-widget widget-user">
-                                        <div class="widget-user-header text-white"
-                                            style="background: url('./assets/img/index/Photographer-banner.jpg') no-repeat center; background-size: cover;">
-                                            <div class="widget-user-image">
-                                                <img class="img-circle" src="./assets/img/index/Photographer.png"
-                                                    alt="User Avatar">
-                                            </div>
-                                        </div>
-                                        <div class="card-body text-center">
-                                            <h3 class="widget-user-username">Davide Benvegnu</h3>
-                                            <h5 class="widget-user-desc">Landscape & Nature Photography</h5>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="row">
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Website</h5>
-                                                        <span class="description-text"><a href="https://davide.ph"
-                                                                target="_blank">Link</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Instagram</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://instagram.com/davide.benvegnu"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                                <div class="col-sm-4">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Store</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://davide.ph/prints"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
+                            <div class="card card-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">About Me</h3>
+                                </div>
 
-                            <!-- SECOND ROW -->
-                            <hr />
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="card card-widget widget-user">
-                                        <div class="widget-user-header text-white"
-                                            style="background: url('./assets/img/index/SimDave-banner.jpg') no-repeat center; background-size: cover;">
-                                            <div class="widget-user-image">
-                                                <img class="img-circle elevation-2" src="./assets/img/index/SimDave.png"
-                                                    alt="User Avatar">
+                                <div class="card-body">
+                                    <strong><i class="fas fa-book mr-1"></i> Education</strong>
+                                    <p class="text-muted">
+                                        IT Engineering, Universita degli studi di Trieste
+                                        <br />
+                                        Technology Leadership Certificate, Cornell University
+                                    </p>
+                                    <hr>
+                                    <strong><i class="fas fa-map-marker-alt mr-1"></i> Current Location</strong>
+                                    <p class="text-muted">Hong Kong</p>
+                                    <hr>
+                                    <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
+                                    <p class="text-muted">
+                                        <span class="badge bg-info">DevOps</span>
+                                        <span class="badge bg-info">Coding</span>
+                                        <span class="badge bg-info">Cloud</span>
+                                        <span class="badge bg-info">Public Speaking</span>
+                                        <span class="badge bg-info">Photography</span>
+                                        <span class="badge bg-info">Videography</span>
+                                        <span class="badge bg-info">Sim Racing</span>
+                                    </p>
+                                    <hr>
+                                    <strong><i class="far fa-file-alt mr-1"></i> Biography</strong>
+                                    <p class="text-muted">My name is Davide Benvegnù, I was born on July 15th, 1984 in
+                                        Trieste, Italy, and now I live and work in Hong Kong.
+                                        <br /><br />
+                                        Currently I am the DevOps and Infrastructure Lead at Playstudios. Before I
+                                        worked as DevOps Architect for Microsoft and GitHub.
+                                        <br /><br />
+                                        I have been awarded as Microsoft MVP (Most Valuable Professional) in ALM and
+                                        DevOps for 5 time, in 2015, 2016, 2017, 2022, and 2023 .
+                                        <br /><br />
+                                        I have been a Mixed Martial Arts (MMA) fighter for some time before moving to
+                                        Hong Kong, with the Spartan Club Arezzo, and in HK with Impakt. I had to stop
+                                        due to an injury.
+                                        <br /><br />
+                                        I have a background in real-life motor racing (in Motocross, Supermoto, and
+                                        Supersport) and now I sim-race, mainly GT4 and GT3 cars.
+                                        <br /><br />
+                                        I also like the modern and contemporary art, especially abstract paintings, and
+                                        photography. You can see some of my works on my Photography Website.
+                                        <br /><br />
+                                        Lastly, and definitely not for importance, I run a YouTube channel about DevOps
+                                        called CoderDave.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card">
+                                <div class="card-header">
+                                    I'm so many different things...
+
+                                    Which version of me you want to see?
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
+                                                <div class="widget-user-header text-white"
+                                                    style="background: url('./assets/img/index/me-banner.jpg') no-repeat center; background-size: cover;">
+                                                    <div class="widget-user-image">
+                                                        <img class="img-circle elevation-2"
+                                                            src="./assets/img/profile.jpg" alt="User Avatar">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body text-center">
+                                                    <h3 class="widget-user-username">Davide Benvegnu</h3>
+                                                    <h5 class="widget-user-desc">DevOps and Infrastructure Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Website</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://www.davidebenvegnu.com/home"
+                                                                        target=" ">Link</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">LinkedIn</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://linkedin.com/in/davidebenvegnu"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">MVP Profile</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://mvp.microsoft.com/en-us/PublicProfile/5001160"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
                                             </div>
+
                                         </div>
-                                        <div class="card-body text-center">
-                                            <h3 class="widget-user-username">SimDave</h3>
-                                            <h5 class="widget-user-desc">Sim Racing</h5>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="row">
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Website</h5>
-                                                        <span class="description-text"><a href="https://simdave.com/"
-                                                                target=" ">Link</a></span>
+
+                                        <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
+                                                <div class="widget-user-header text-white"
+                                                    style="background: url('./assets/img/index/CoderDave-banner.png') no-repeat center; background-size: cover;">
+                                                    <div class="widget-user-image">
+                                                        <img class="img-circle elevation-2"
+                                                            src="./assets/img/index/CoderDave.jpg" alt="User Avatar">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body text-center">
+                                                    <h3 class="widget-user-username">CoderDave</h3>
+                                                    <h5 class="widget-user-desc">DevOps YouTuber</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Website</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://coderdave.io"
+                                                                        target="_blank">Link</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">YouTube</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://youtube.com/CoderDave"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Articles</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://dev.to/n3wt0n"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
                                                     </div>
 
                                                 </div>
+                                            </div>
 
-                                                <div class="col-sm-4 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">YouTube</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://youtube.com/@SimDave"
-                                                                target="_blank">LINK</a></span>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
+                                                <div class="widget-user-header text-white"
+                                                    style="background: url('./assets/img/index/Photographer-banner.jpg') no-repeat center; background-size: cover;">
+                                                    <div class="widget-user-image">
+                                                        <img class="img-circle"
+                                                            src="./assets/img/index/Photographer.png" alt="User Avatar">
                                                     </div>
-
                                                 </div>
+                                                <div class="card-body text-center">
+                                                    <h3 class="widget-user-username">Davide Benvegnu</h3>
+                                                    <h5 class="widget-user-desc">Landscape & Nature Photography</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Website</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://davide.ph"
+                                                                        target="_blank">Link</a></span>
+                                                            </div>
 
-                                                <div class="col-sm-4">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">LFM Profile</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://lowfuelmotorsport.com/profile/110228"
-                                                                target="_blank">LINK</a></span>
+                                                        </div>
+
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Instagram</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://instagram.com/davide.benvegnu"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Store</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://davide.ph/prints"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
-                                    <div class="card card-widget widget-user">
-                                        <div class="widget-user-header text-white"
-                                            style="background: url('./assets/img/index/DaveLei-banner.jpg') no-repeat center; background-size: cover;">
-                                            <div class="widget-user-image">
-                                                <img class="img-circle elevation-2" src="./assets/img/index/DaveLei.png"
-                                                    alt="User Avatar">
+                                    <!-- SECOND ROW -->
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
+                                                <div class="widget-user-header text-white"
+                                                    style="background: url('./assets/img/index/SimDave-banner.jpg') no-repeat center; background-size: cover;">
+                                                    <div class="widget-user-image">
+                                                        <img class="img-circle elevation-2"
+                                                            src="./assets/img/index/SimDave.png" alt="User Avatar">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body text-center">
+                                                    <h3 class="widget-user-username">SimDave</h3>
+                                                    <h5 class="widget-user-desc">Sim Racing</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Website</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://simdave.com/"
+                                                                        target=" ">Link</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">YouTube</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://youtube.com/@SimDave"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-4">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">LFM Profile</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://lowfuelmotorsport.com/profile/110228"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="card-body text-center">
-                                            <h3 class="widget-user-username">Dave & Lei</h3>
-                                            <h5 class="widget-user-desc">Lifestyle Vlogging</h5>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="row">
-                                                <div class="col-sm-6 border-right">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">YouTube</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://youtube.com/DaveLeiVlog"
-                                                                target="_blank">Link</a></span>
+
+                                        <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
+                                                <div class="widget-user-header text-white"
+                                                    style="background: url('./assets/img/index/DaveLei-banner.jpg') no-repeat center; background-size: cover;">
+                                                    <div class="widget-user-image">
+                                                        <img class="img-circle elevation-2"
+                                                            src="./assets/img/index/DaveLei.png" alt="User Avatar">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body text-center">
+                                                    <h3 class="widget-user-username">Dave & Lei</h3>
+                                                    <h5 class="widget-user-desc">Lifestyle Vlogging</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 border-right">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">YouTube</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://youtube.com/DaveLeiVlog"
+                                                                        target="_blank">Link</a></span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-sm-6">
+                                                            <div class="description-block">
+                                                                <h5 class="description-header">Facebook</h5>
+                                                                <span class="description-text"><a
+                                                                        href="https://facebook.com/DaveAndLei"
+                                                                        target="_blank">LINK</a></span>
+                                                            </div>
+
+                                                        </div>
+
                                                     </div>
 
                                                 </div>
-
-                                                <div class="col-sm-6">
-                                                    <div class="description-block">
-                                                        <h5 class="description-header">Facebook</h5>
-                                                        <span class="description-text"><a
-                                                                href="https://facebook.com/DaveAndLei"
-                                                                target="_blank">LINK</a></span>
-                                                    </div>
-
-                                                </div>
-
                                             </div>
 
                                         </div>
-                                    </div>
 
-                                </div>
+                                        <div class="col-md-4">
 
-                                <div class="col-md-4">
+                                            <div class="card card-widget widget-user">
 
-                                    <div class="card card-widget widget-user">
-
-                                        <div class="widget-user-header bg-inf">
-                                        </div>
-                                        <div class="widget-user-image">
-                                            <img class="img-circle" src="./assets/img/index/more.png"
-                                                alt="User Avatar">
-                                        </div>
-                                        <!-- <div class="card-body text-center">
+                                                <div class="widget-user-header bg-inf">
+                                                </div>
+                                                <div class="widget-user-image">
+                                                    <img class="img-circle" src="./assets/img/index/more.png"
+                                                        alt="User Avatar">
+                                                </div>
+                                                <!-- <div class="card-body text-center">
                                             <h3 class="widget-user-username">Davide Benvegnu</h3>
                                             <h5 class="widget-user-desc">All the rest...</h5>
                                         </div> -->
-                                        <div class="card-footer p-0" style="padding-top: 45px !important;">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <div class="nav-link">
-                                                        GitHub <span class="float-right badge"><a href="https://github.com/n3wt0n" target="_blank ">LINK</a></span>
-                                                    </div>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <div class="nav-link">
-                                                        Videography <span class="float-right badge"><a href="https://www.dbtekmedia.com" target="_blank ">LINK</a></span>
-                                                    </div>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <div class="nav-link text-warning">
-                                                        Need Help With DevOps? <span class="float-right badge"><a href="https://geni.us/cdconsult" target="_blank ">LINK</a></span>
-                                                    </div>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <div class="nav-link">
-                                                        Twitter / X <span class="float-right badge"><a href="https://twitter.com/davidebenvegnu" target="_blank ">LINK</a></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                <div class="card-footer p-0" style="padding-top: 45px !important;">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item">
+                                                            <div class="nav-link">
+                                                                GitHub <span class="float-right badge"><a
+                                                                        href="https://github.com/n3wt0n"
+                                                                        target="_blank ">LINK</a></span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <div class="nav-link">
+                                                                Videography <span class="float-right badge"><a
+                                                                        href="https://www.dbtekmedia.com"
+                                                                        target="_blank ">LINK</a></span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <div class="nav-link text-warning">
+                                                                Need Help With DevOps? <span
+                                                                    class="float-right badge"><a
+                                                                        href="https://geni.us/cdconsult"
+                                                                        target="_blank ">LINK</a></span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <div class="nav-link">
+                                                                Twitter / X <span class="float-right badge"><a
+                                                                        href="https://twitter.com/davidebenvegnu"
+                                                                        target="_blank ">LINK</a></span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
                                         </div>
+
                                     </div>
-
                                 </div>
-
                             </div>
+
                         </div>
                     </div>
-
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
+
+        </div>
+    </div>
 
 
 </body>
