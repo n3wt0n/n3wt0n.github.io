@@ -36,9 +36,9 @@ author_bio: >-
   <br/><br/>
   My name is <b>Davide Benvegnù</b>, I was born on July 15th, 1984 in Trieste, a city where I lived for many years. After a "Tuscan moment", having moved to the charming city of Subbiano, now I live and work in Hong Kong.
   <br/><br/>
-  Currently I am the <b>DevOps and Infrastructure Lead</b> at Playstudios. Before I worked as <b>DevOps Architect</b> for Microsoft and GitHub.
+  Currently I am the <b>Director of DevOps</b> at Playstudios. Before I worked as <b>DevOps Architect</b> for Microsoft and GitHub.
   <br/><br/>
-  I have been awarded as <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001160?fullName=Davide%20Benvegn%C3%B9" target="_blank">Microsoft MVP (Most Valuable Professional)</a> in ALM and DevOps for 5 time, in 2015, 2016, 2017, 2022, and 2023 .
+  I have been awarded as <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001160?fullName=Davide%20Benvegn%C3%B9" target="_blank">Microsoft MVP (Most Valuable Professional)</a> in ALM and DevOps for 7 time, in 2015, 2016, 2017, 2022, 2023, 2024, and 2025 .
   <br/><br/>
   I'm a staff member of <a href="http://www.dotnettoscana.org/" target="_blank">DotNetToscana</a>, an official Microsoft technical <b>community</b>, where I organize events and have speeches at technical conferences about DevOps, the .Net world, Azure, containers and serverless.
   <br/>
@@ -57,8 +57,8 @@ author_work_experiences:
             - company_name: Playstudios
               company_logo: playstudios.jpg
               company_url: https://playstudios.asia
-              designation: DevOps and Infra Lead
-              description: Leading the DevOps, Infra, DB, and Performance Engineering teams.
+              designation: Director of DevOps
+              description: Leading the DevOps department across several regions.
               visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
